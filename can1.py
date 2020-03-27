@@ -28,31 +28,31 @@ botStart = time.time()
 msg_dict = {}
 msg_dict1 = {}
 #==============[ token 1 ]==============#
-cl = LINE("@gmail.com","password")
+cl = LINE()
 cl.log("Auth Token : " + str(cl.authToken))
 cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
-ki = LINE("@gmail.com","password")
+ki = LINE()
 ki.log("Auth Token : " + str(ki.authToken))
 ki.log("Timeline Token : " + str(ki.tl.channelAccessToken))
 
-kk = LINE("@gmail.com","password")
+kk = LINE()
 kk.log("Auth Token : " + str(kk.authToken))
 kk.log("Timeline Token : " + str(kk.tl.channelAccessToken))
 
-kc = LINE("@gmail.com","password")
+kc = LINE()
 kc.log("Auth Token : " + str(kc.authToken))
 kc.log("Timeline Token : " + str(kc.tl.channelAccessToken))
 
-ko = LINE("@gmail.com","password")
+ko = LINE()
 ko.log("Auth Token : " + str(ko.authToken))
 ko.log("Timeline Token : " + str(ko.tl.channelAccessToken))
 
-jk = LINE("@gmail.com","password")
+jk = LINE()
 jk.log("Auth Token : " + str(jk.authToken))
 jk.log("Timeline Token : " + str(jk.tl.channelAccessToken))
 
-sw = LINE("@gmail.com","password")
+sw = LINE()
 sw.log("Auth Token : " + str(sw.authToken))
 sw.log("Timeline Token : " + str(sw.tl.channelAccessToken))
 #==============[●●●●●●]==============#
@@ -73,10 +73,10 @@ KAC = [cl,ki,kk,kc,ko,jk]
 ABC = [cl,ki,kk,kc,ko,jk]
 GHOST = [sw]
 Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid]
-creator = ["ucc10b6f6bc11284e0aa9b2a2fb16b70c"]
-owner = ["ucc10b6f6bc11284e0aa9b2a2fb16b70c"]
-admin = ["ucc10b6f6bc11284e0aa9b2a2fb16b70c"]
-staff = ["ucc10b6f6bc11284e0aa9b2a2fb16b70c"]
+creator = ["uc66e45201d1612eb4ce7b3a86bac4685"]
+owner = ["uc66e45201d1612eb4ce7b3a86bac4685"]
+admin = ["uc66e45201d1612eb4ce7b3a86bac4685"]
+staff = ["uc66e45201d1612eb4ce7b3a86bac4685"]
 Oleng = admin + staff
 
 protectqr = []
@@ -3712,7 +3712,7 @@ def bot(op):
                             if msg._from in admin:
                                   musik(to)
                                   
-                        elif cmd == ".me" or text.lower() == 'gue':
+                        elif cmd == "me" or text.lower() == 'มี':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 msg.contentType = 13
@@ -3919,368 +3919,7 @@ def bot(op):
   ],
   "type": "carousel"
 }
-                                   #cl.postFlex(group, data)
-                              #     
-                       # elif cmd.startswith("broadcast: "):
-                      #    if wait["selfbot"] == True:
-                    #        if msg._from in admin:
-                   #            sep = text.split(" ")
-                   #            pesan = text.replace(sep[0] + " ","")
-                #               saya = cl.getGroupIdsJoined()
-                  #             for group in saya:
-                #                   sendTextTemplate8(group,"[ ɴᴜᴍᴘᴀɴɢ ᴘʀᴏᴍᴏ ᴋᴋ ]\n" + str(pesan))
-#
-                #        elif "hah" in msg.text.lower():
-                 #                   url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                #                    to = msg.to
-                   #                 data = {
-                     #                           "type": "template",
-                   #                             "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                    #                            "template": {
-                      #                             "type": "image_carousel",
-                       #                            "columns": [
-                         #                           {
-                              #                          "imageUrl": "https://4.bp.blogspot.com/-W_bn2qqdYXE/Wyhbjj2wqKI/AAAAAAANIz4/KQVsbq-aXm0kZNfFOS5SN8fqCvQ18xnUACLcBGAs/s1600/AW1238502_03.gif",
-                                    #                    "size": "full", 
-                                 #                       "action": {
-                                    #                        "type": "uri",
-                                  #                          "uri": "http://line.me/ti/p/~muhajir_alwi"
-               #                  }                                                
-              #         }
-               #       ]
-                                #                }
-                      #                      }
-                           #         cl.postTemplate(to, data)
-                             #       
-                  #      elif "sedih" in msg.text.lower():
-                      #              url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                   #                 to = msg.to
-                      #              data = {
-                          #                      "type": "template",
-                         #                       "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                         #                       "template": {
-                         #                          "type": "image_carousel",
-                          #                         "columns": [
-                          #                          {
-                           #                             "imageUrl": "https://3.bp.blogspot.com/-OfIz4mSIumw/WbLEZw7l6nI/AAAAAAARd6Y/Dxzos1SA_5MU32bXFTKToLDndM7YpV7WACLcBGAs/s1600/AW529310_04.gif",
-                         #                               "size": "full", 
-                             #                           "action": {
-                              #                              "type": "uri",
-                             #                               "uri": "http://line.me/ti/p/~muhajir_alwi"
-              #                   }                                                
-               #        }
-                  #    ]
-                         #                       }
-                          #                  }
-                      #              cl.postTemplate(to, data) 
-                                  #  
-                      #  elif "hadeh" in msg.text.lower():
-                        #            url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                       #             to = msg.to
-                        #            data = {
-                       #                         "type": "template",
-                        #                        "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                               #                 "template": {
-                         #                          "type": "image_carousel",
-                       #                            "columns": [
-                         #                           {
-                          #                              "imageUrl": "https://i.ibb.co/dJ1H13M/Benjol.gif",
-                            #                            "size": "full", 
-                             #                           "action": {
-                             #                               "type": "uri",
-                              #                              "uri": "http://line.me/ti/p/~muhajir_alwi"
-                          #       }                                                
-            #           }
-           #           ]
-                #                                }
-                   #                         }
-                    #                cl.postTemplate(to, data)
-                       #
-                #        elif "bomat" in msg.text.lower():
-                 #                   url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                    #                to = msg.to
-                  #                  data = {
-                    #                            "type": "template",
-                 #                               "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                      #                          "template": {
-                          #                         "type": "image_carousel",
-                          #                         "columns": [
-                          #                          {
-                            #                            "imageUrl": "https://lh3.googleusercontent.com/-xNJ4AMTRxv4/Wx92ZYSEflI/AAAAAAACsvA/KK44SSrO6dYlR7Xig15WXDN7oCcUS6fPwCJoC/w480-h480-n/gplus-1561983519.gif",
-                           #                             "size": "full", 
-                         #                               "action": {
-                        #                                    "type": "uri",
-                        #                                    "uri": "http://line.me/ti/p/~muhajir_alwi"
-                      #           }                                                
-                #       }
-             #         ]
-                    #                            }
-                   #                         }
-                   #                 cl.postTemplate(to, data)
-              #                      
-                  #      elif "asem" in msg.text.lower():
-                #                    url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-              #                      to = msg.to
-                 #                   data = {
-                     #                           "type": "template",
-                  #                              "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                     #                           "template": {
-                    #                               "type": "image_carousel",
-                      #                             "columns": [
-                   #                                 {
-                       #                                 "imageUrl": "https://1.bp.blogspot.com/-j51nCknouj8/WDwHtTJUqKI/AAAAAAALmo8/qax6OG7QAmQs6aICNGwSP0CkebJzAbOSgCLcB/s1600/AS001874_19.gif",
-                         #                               "size": "full", 
-                       #                                 "action": {
-                       #                                     "type": "uri",
-                        #                                    "uri": "http://line.me/ti/p/~muhajir_alwi"
-                      #           }                                                
-                #       }
-                #      ]
-                     #                           }
-                      #                      }
-                                  #  cl.postTemplate(to, data)
-                          #          
-                        #elif "biarin" in msg.text.lower():
-                      #              url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                       #             to = msg.to
-                       #             data = {
-                             #                   "type": "template",
-                              #                  "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                              #                  "template": {
-                             #                      "type": "image_carousel",
-                               #                    "columns": [
-                              #                      {
-                               #                         "imageUrl": "https://2.bp.blogspot.com/-ZlkxlajQM4k/WMlfThHb6eI/AAAAAAAOBf4/BNwKEazXVbc2xK2acnDck8MLJZ21lCeJwCLcB/s1600/AW392405_04.gif",
-                                #                        "size": "full", 
-                                 #                       "action": {
-                                  #                          "type": "uri",
-                              #                              "uri": "http://line.me/ti/p/~muhajir_alwi"
-                           #      }                                                
-                  #     }
-                 #     ]
-                            #                    }
-                           #                 }
-                            #        cl.postTemplate(to, data)                                                         
-                        #            
-                      #  elif "otw" in msg.text.lower():
-                       #             url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                        #            to = msg.to
-                         #           data = {
-                         #                       "type": "template",
-                           #                     "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                             #                   "template": {
-                              #                     "type": "image_carousel",
-                                #                   "columns": [
-                               #                     {
-                               #                         "imageUrl": "https://1.bp.blogspot.com/-CSIjz01zHi0/WMlfTS0Qw2I/AAAAAAAOBf0/7gw5JrbNbkQe-rdMqaNGuhhVBpE4snhWACLcB/s1600/AW392405_03.gif",
-                              #                          "size": "full", 
-                               #                         "action": {
-                               #                             "type": "uri",
-                              #                              "uri": "http://line.me/ti/p/~muhajir_alwi"
-                            #     }                                                
-                    #   }
-                 #     ]
-                         #                       }
-                            #                }
-                                 #   cl.postTemplate(to, data)
-   
-                    #    elif "oke" in msg.text.lower():
-                       #             url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                     #               to = msg.to
-                   #                 data = {
-                    #                            "type": "template",
-                     #                           "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                     #                           "template": {
-                    #                               "type": "image_carousel",
-                    #                               "columns": [
-                     #                               {
-                      #                                  "imageUrl": "https://3.bp.blogspot.com/-_ZZg6eH89Gc/WE95b91DwsI/AAAAAAAEpnI/tWy69rJIAmsPx7clwzBhVXiSOdpZSp4NACLcB/s1600/AW305486_05.gif",
-                      #                                  "size": "full", 
-                    #                                    "action": {
-                        #                                    "type": "uri",
-                        #                                    "uri": "http://line.me/ti/p/~muhajir_alwi"
-                       #          }                                                
-                   #    }
-               #       ]
-                    #                            }
-                #                            }
-                   #                 cl.postTemplate(to, data)
-                   #                 
-                #        elif "sue" in msg.text.lower():
-                  #                  url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                  #                  to = msg.to
-                #                    data = {
-                 #                               "type": "template",
-                 #                               "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                   #                             "template": {
-                 #                                  "type": "image_carousel",
-                      #                             "columns": [
-                 #                                   {
-                    #                                    "imageUrl": "https://i.ibb.co/y0wP3fJ/tai-line.gif",
-                     #                                   "size": "full", 
-                      #                                  "action": {
-                        #                                    "type": "uri",
-                        #                                    "uri": "http://line.me/ti/p/~muhajir_alwi"
-                       #          }                                                
-               #        }
-               #       ]
-                   #                             }
-                   #                         }
-                #                    cl.postTemplate(to, data)
-                #                    
-               #         elif "wkwk" in msg.text.lower():
-                       #             url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                         #           to = msg.to
-                           #         data = {
-                              #                  "type": "template",
-                              #                  "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                              #                  "template": {
-                                #                   "type": "image_carousel",
-                                 #                  "columns": [
-                                  #                  {
-                                  #                      "imageUrl": "https://thumbs.gfycat.com/QuaintScornfulAmericanlobster-small.gif",
-                                  #                      "size": "full", 
-                                  #                      "action": {
-                                     #                       "type": "uri",
-                                    #                        "uri": "http://line.me/ti/p/~muhajir_alwi"
-                      #           }                                                
-                  #     }
-                  #    ]
-                         #                       }
-                            #                }
-                          #          cl.postTemplate(to, data)
-                      #           
-                    #    elif "coba" in msg.text.lower():                     	
-                       #             url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                         #           to = msg.to
-                          #          data = {
-                             #                   "type": "template",
-                            #                    "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                              #                  "template": {
-                             #                      "type": "image_carousel",
-                                 #                  "columns": [
-                                 #                   {
-                               #                         "imageUrl": "https://stickershop.line-scdn.net/stickershop/v1/sticker/32128231/IOS/sticker_animation@2x.png",
-                              #                          "size": "full", 
-                              #                          "action": {
-                             #                               "type": "uri",
-                              #                              "uri": "http://line.me/ti/p/~muhajir_alwi"
-                  #               }                                                
-               #        }
-              #        ]
-                #                                }
-                    #                        }
-                           #         cl.postTemplate(to, data)
-         #
-                  #      elif "wah" in msg.text.lower():                     	
-                         #           url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                          #          to = msg.to
-                              #      data = {
-                                #                "type": "template",
-                               #                 "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                                 #               "template": {
-                                  #                 "type": "image_carousel",
-                               #                    "columns": [
-                              #                      {
-                                #                        "imageUrl": "https://appstickers-cdn.appadvice.com/1161475669/819158103/5950933cc2b8a0948941fc446c3e1938-5.gif",
-                                  #                      "size": "full", 
-                                    #                    "action": {
-                              #                              "type": "uri",
-                               #                             "uri": "http://line.me/ti/p/~muhajir_alwi"
-                 #                }                                                
-                #       }
-               #       ]
-                     #                           }
-                     #                       }
-                          #          cl.postTemplate(to, data)
-                         #           
-                    #    elif "cium" in msg.text.lower():                     	
-                          #          url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                            #        to = msg.to
-                               #     data = {
-                               #                 "type": "template",
-                                #                "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                               #                 "template": {
-                                #                   "type": "image_carousel",
-                              #                     "columns": [
-                              #                      {
-                                #                        "imageUrl": "https://i.ibb.co/CVMQ40k/7c8ab257ee3b7e1ef283b7c0a35d9d2c.gif",
-                               #                         "size": "full", 
-                              #                          "action": {
-                                     #                       "type": "uri",
-                            #                                "uri": "http://line.me/ti/p/~muhajir_alwi"
-                         #        }                                                
-                   #    }
-                    #  ]
-                        #                        }
-                             #               }
-                                 #   cl.postTemplate(to, data)
-           #
-                      #  elif "gombal" in msg.text.lower():
-                           #         url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                          #          to = msg.to
-                               #     data = {
-                              #                  "type": "template",
-                                 #               "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                                 #               "template": {
-                                   #                "type": "image_carousel",
-                                    #               "columns": [
-                                    #                {
-                                  #                      "imageUrl": "https://thumbs.gfycat.com/KlutzyUglyGelding-small.gif",
-                               #                         "size": "full", 
-                                   #                     "action": {
-                                   #                         "type": "uri",
-                                      #                      "uri": "http://line.me/ti/p/~muhajir_alwi"
-                          #       }                                                
-                 #      }
-                  #    ]
-                       #                         }
-                         #                   }
-                          #          cl.postTemplate(to, data)
-                        #            
-                      #  elif "diam" in msg.text.lower():
-                           #         url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                             #       to = msg.to
-                              #      data = {
-                                 #               "type": "template",
-                               #                 "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                                      #          "template": {
-                                     #              "type": "image_carousel",
-                                         #          "columns": [
-                                    #                {
-                                         #               "imageUrl": "https://thumbs.gfycat.com/BigIdealAsianelephant-small.gif",
-                                        #                "size": "full", 
-                                    #                    "action": {
-                                     #                       "type": "uri",
-                                            #                "uri": "http://line.me/ti/p/~muhajir_alwi"
-                    #             }                                                
-             #          }
-                 #     ]
-               #                                 }
-                      #                      }
-                        #            cl.postTemplate(to, data)
-                           #         
-                    #    elif "sepi" in msg.text.lower():
-                       #             url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                           #         to = msg.to
-                          #          data = {
-                            #                    "type": "template",
-                                   #             "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                            #                    "template": {
-                                     #              "type": "image_carousel",
-                           #                        "columns": [
-                                      #              {
-                              #                          "imageUrl": "https://i.ibb.co/hHG5Mwb/AW316819-05.gif",
-                                    #                    "size": "full", 
-                                              #          "action": {
-                                     #                       "type": "uri",
-                                  #                          "uri": "http://line.me/ti/p/~muhajir_alwi"
-                               #  }                                                
-                #       }
-                   #   ]
-                            #                    }
-                                       #     }
-                                 #   cl.postTemplate(to, data)
+
                         elif text.lower() == "mykey":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
@@ -4303,7 +3942,7 @@ def bot(op):
                                Setmain["keyCommand"] = ""
                                sendTextTemplate(msg.to, "🔹sᴇᴛᴋᴇʏ\n🔹ᴋᴇᴍʙᴀʟɪ ᴋᴇ ᴀᴡᴀʟ")
 
-                        elif cmd == "restart":
+                        elif cmd == "รี":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                sendTextTemplate(msg.to, "🔹ᴡᴀɪᴛ....")
@@ -4771,7 +4410,7 @@ def bot(op):
                                 ko.sendMessage(msg.to,responsename4)
                                 jk.sendMessage(msg.to,responsename5)
 
-                        elif cmd == "join":
+                        elif cmd == "ivk":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 try:
@@ -5761,7 +5400,7 @@ def bot(op):
                                cl.sendMessage(to, None, contentMetadata={"STKID":"56021040","STKPKGID":"3865357","STKVER":"1"}, contentType=7)
                                cl.sendMessage(to, None, contentMetadata={"STKID":"56021040","STKPKGID":"3865357","STKVER":"1"}, contentType=7)
 
-                        elif ("Kick " in msg.text):
+                        elif ("K " in msg.text):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                key = eval(msg.contentMetadata["MENTION"])
@@ -6190,7 +5829,7 @@ def bot(op):
                                     ma += str(a) + ". " +cl.getContact(m_id).displayName + "\n"
                                 sendTextTemplate(msg.to,"🔹ᴛᴀʟᴋʙᴀɴ ᴜsᴇʀ🔹\n\n"+ma+"\n🔹ᴊᴜᴍʟᴀʜ「%s」ᴛᴀʟᴋʙᴀɴ ᴜsᴇʀ🔹" %(str(len(wait["Talkblacklist"]))))
 
-                        elif cmd == "tersangka" or text.lower() == 'blc':
+                        elif cmd == "tersangka" or text.lower() == 'bc':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                               if wait["blacklist"] == {}:
@@ -6201,7 +5840,7 @@ def bot(op):
                                         ma = cl.getContact(i)
                                         cl.sendMessage(msg.to, None, contentMetadata={'mid': i}, contentType=13)
 
-                        elif cmd == "clearban" or text.lower() == 'clearban':
+                        elif cmd == "clearban" or text.lower() == 'cb':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                               wait["blacklist"] = {}
