@@ -1424,6 +1424,33 @@ def bot(op):
                     else:
                         jk.acceptGroupInvitation(op.param1)
                         ginfo = jk.getGroup(op.param1)
+            if Fmid in op.param3:
+                if wait["autoJoin"] == True:
+                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                        ke.acceptGroupInvitation(op.param1)
+                        ginfo = ke.getGroup(op.param1)
+                        ke.leaveGroup(op.param1)
+                    else:
+                        ke.acceptGroupInvitation(op.param1)
+                        ginfo = ke.getGroup(op.param1)
+            if Gmid in op.param3:
+                if wait["autoJoin"] == True:
+                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                        kw.acceptGroupInvitation(op.param1)
+                        ginfo = kw.getGroup(op.param1)
+                        kw.leaveGroup(op.param1)
+                    else:
+                        kw.acceptGroupInvitation(op.param1)
+                        ginfo = kw.getGroup(op.param1)
+            if Zmid in op.param3:
+                if wait["autoJoin"] == True:
+                    if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                        sw.acceptGroupInvitation(op.param1)
+                        ginfo = sw.getGroup(op.param1)
+                        jk.leaveGroup(op.param1)
+                    else:
+                        sw.acceptGroupInvitation(op.param1)
+                        ginfo = sw.getGroup(op.param1)
                         
         if op.type == 19:
             if op.param1 in protectkick:
@@ -1466,44 +1493,7 @@ def bot(op):
                                             random.choice(ABC).inviteIntoGroup(op.param1,[op.param3])
                                         except:
                                             pass
-        if op.type == 13:
-            if op.param2 in wait["blacklist"]:
-                if op.param2 in Bots:
-                    pass
-                if op.param2 in owner:
-                    pass
-                if op.param2 in admin:
-                    pass
-                if op.param2 in staff:
-                    pass
-                else:
-                    wait["blacklist"][op.param2] = True                    
-                    try:
-                        ki.cancelGroupInvitation(op.param1,[op.param2])
-                    except:
-                        try:
-                            kk.cancelGroupInvitation(op.param1,[op.param2])
-                        except:
-                            try:
-                                kc.cancelGroupInvitation(op.param1,[op.param2])
-                            except:
-                                try:
-                                    ko.cancelGroupInvitation(op.param1,[op.param2])
-                                except:
-                                    try:
-                                        jk.cancleGroupInvitation(op.param1,[op.param2])
-                                    except:
-                                        try:
-                                            ke.cancleGroupInvitation(op.param1,[op.param2])
-                                        except:
-                                            try:
-                                                kw.cancleGroupInvitation(op.param1,[op.param2])
-                                            except:
-                                                try:
-                                                    sw.cancleGroupInvitation(op.param1,[op.param2])
-                                                except:
-                                                    pass
-                        
+
 
         if op.type == 17:
             if op.param2 in wait["blacklist"]:
@@ -2619,43 +2609,7 @@ def bot(op):
                                                     sw.kickoutFromGroup(op.param1,[op.param2])
                                                 except:
                                                     pass
-                return
-        if op.type == 55:
-            if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
-                wait["blacklist"][op.param2] = True
-                try:
-                    ki.cancelGroupInvitation(op.param1,[op.param3])
-                    ki.kickoutFromGroup(op.param1,[op.param2])
-                except:
-                    try:
-                        kk.cancelGroupInvitation(op.param1,[op.param3])
-                        kk.kickoutFromGroup(op.param1,[op.param2])
-                    except:
-                        try:
-                            kc.cancelGroupInvitation(op.param1,[op.param3])
-                            kc.kickoutFromGroup(op.param1,[op.param2])
-                        except:
-                            try:
-                                ko.cancelGroupInvitation(op.param1,[op.param3])
-                                ko.kickoutFromGroup(op.param1,[op.param2])
-                            except:
-                                try:
-                                    jk.cancelGroupInvitation(op.param1,[op.param3])
-                                    jk.kickoutFromGroup(op.param1,[op.param2])
-                                except:
-                                    try:
-                                        ke.cancelGroupInvitation(op.param1,[op.param3])
-                                        ke.kickoutFromGroup(op.param1,[op.param2])
-                                    except:
-                                        try:
-                                            kw.cancelGroupInvitation(op.param1,[op.param3])
-                                            kw.kickoutFromGroup(op.param1,[op.param2])
-                                        except:
-                                            try:
-                                                sw.cancelGroupInvitation(op.param1,[op.param3])
-                                                sw.kickoutFromGroup(op.param1,[op.param2])
-                                            except:
-                                                pass
+
                 return    
                 
             if admin in op.param3:
@@ -3246,7 +3200,7 @@ def bot(op):
                         return
                     else:
                         cmd = command(text)
-                        if cmd == "คำสั่ง":
+                        if cmd == "help":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                helpMessage = help()
@@ -3267,24 +3221,24 @@ def bot(op):
                                 wait["selfbot"] = False
                                 sendTextTemplate(msg.to, "ปิดการทำงานคิกเรียบ100")
                           
-                        elif cmd == "h1":
+                        elif cmd == "help1":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin:
                                sendTextTemplate(msg.to, "╭───────────╮\n├🔹ɴᴏᴛᴀɢ ᴏɴ|ᴏғғ\n├🔹ᴀʟʟᴘʀᴏ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴜʀʟ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴊᴏɪɴ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴋɪᴄᴋ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴄᴀɴᴄᴇʟ ᴏɴ|ᴏғғ\n╰───────────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ʙʏ : mai\n╰───────────────────────")                 
-                        elif cmd == "h2":
+                        elif cmd == "help2":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                helpMessage1 = helpbot()
                                sendTextTemplate(msg.to, str(helpMessage1))
-                        elif cmd == "h3":
+                        elif cmd == "help3":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin:
                                sendTextTemplate(msg.to, "╭───────╮\n├🔹ʜᴀʜ\n├🔹sᴜᴇ\n├🔹ᴡᴏʏ/ᴄᴏʟᴏᴋ\n├🔹sᴇᴅɪʜ\n├🔹sᴇᴘɪ\n├🔹ʜᴀᴅᴇʜ\n├🔹ᴊᴜᴍʟᴀʜ:\n├🔹sᴛᴀɢ ᴛᴀɢ\n├🔹sᴘᴀᴍᴄᴀʟʟ: ᴊᴜᴍʟᴀʜ\n├🔹sᴘᴀᴍᴄᴀʟʟ\n╰──────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ʙʏ : mai\n╰───────────────────────")
-                        elif cmd == "h4":
+                        elif cmd == "help4":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin:
                                sendTextTemplate(msg.to, "╭───────────╮\n├🔹ʀᴇsᴘᴏɴ ᴏɴ|ᴏғғ\n├🔹ᴄᴏɴᴛᴀᴄᴛ ᴏɴ|ᴏғғ\n├🔹ᴀᴜᴛᴏᴊᴏɪɴ ᴏɴ|ᴏғғ\n├🔹ᴀᴜᴛᴏᴀᴅᴅ ᴏɴ|ᴏғғ\n├🔹ᴀᴜᴛᴏʟᴇᴀᴠᴇ ᴏɴ|ᴏғғ\n├🔹ᴡᴇʟᴄᴏᴍᴇ ᴏɴ|ᴏғғ\n├??ᴊᴀɴᴅᴀ ᴏɴ|ᴏғғ\n╰───────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ʙʏ : ᴀʙɪ mai\n╰───────────────────────")
-                        elif cmd == "h5":
+                        elif cmd == "help5":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin:
                                sendTextTemplate(msg.to, "╭─────────╮\n├🔹ᴀᴅᴍɪɴ:ᴏɴ\n├🔹ᴀᴅᴍɪɴ:ʀᴇᴘᴇᴀᴛ\n├🔹sᴛᴀғғ:ᴏɴ\n├🔹sᴛᴀғғ:ʀᴇᴘᴇᴀᴛ\n├🔹ᴀᴅᴍɪɴᴀᴅᴅ ᴛᴀɢ\n├🔹ᴀ ᴛᴀɢ\n├🔹s ᴛᴀɢ\n├🔹s ᴛᴀɢ\n├🔹ʙᴏᴛᴀᴅᴅ ᴛᴀɢ\n├🔹ʙᴏᴛᴅᴇʟʟ ᴛᴀɢ\n├🔹ʀᴇғʀᴇsʜ\n├🔹ʟɪsᴛʙᴏᴛ\n├🔹ʟɪsᴛᴀᴅᴍɪɴ\n├🔹ʟɪsᴛᴘʀᴏᴛᴇᴄᴛ\n├🔹เปิดบอท/ปิดบอท\n╰─────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ʙʏ : mai\n╰───────────────────────")
@@ -4370,7 +4324,7 @@ def bot(op):
         "contents": [
           {
             "type": "text",
-            "text": "Cannibal Bot",
+            "text": "by,mai Bot",
             "size": "xl",
             "wrap": True,
             "weight": "bold",
