@@ -2483,7 +2483,7 @@ def bot(op):
                         kc.acceptGroupInvitationByTicket(op.param1,Ti)
                         kc.kickoutFromGroup(op.param1,[op.param2])
                         ko.acceptGroupInvitationByTicket(op.param1,Ti)
-                        ko..kickoutFromGroup(op.param1,[op.param2])
+                        ko.kickoutFromGroup(op.param1,[op.param2])
                         jk.acceptGroupInvitationByTicket(op.param1,Ti)
                         jk.kickoutFromGroup(op.param1,[op.param2])
                         ke.acceptGroupInvitationByTicket(op.param1,Ti)
