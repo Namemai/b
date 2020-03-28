@@ -1465,7 +1465,44 @@ def bot(op):
                                             random.choice(ABC).cancelGroupInvitation(op.param1,[op.param2])
                                             random.choice(ABC).inviteIntoGroup(op.param1,[op.param3])
                                         except:
-                                            pass                
+                                            pass
+        if op.type == 13:
+            if op.param2 in wait["blacklist"]:
+                if op.param2 in Bots:
+                    pass
+                if op.param2 in owner:
+                    pass
+                if op.param2 in admin:
+                    pass
+                if op.param2 in staff:
+                    pass
+                else:
+                    wait["blacklist"][op.param2] = True                    
+                    try:
+                        ki.cancelGroupInvitation(op.param1,[op.param2])
+                    except:
+                        try:
+                            kk.cancelGroupInvitation(op.param1,[op.param2])
+                        except:
+                            try:
+                                kc.cancelGroupInvitation(op.param1,[op.param2])
+                            except:
+                                try:
+                                    ko.cancelGroupInvitation(op.param1,[op.param2])
+                                except:
+                                    try:
+                                        jk.cancleGroupInvitation(op.param1,[op.param2])
+                                    except:
+                                        try:
+                                            ke.cancleGroupInvitation(op.param1,[op.param2])
+                                        except:
+                                            try:
+                                                kw.cancleGroupInvitation(op.param1,[op.param2])
+                                            except:
+                                                try:
+                                                    sw.cancleGroupInvitation(op.param1,[op.param2])
+                                                except:
+                                                    pass
                         
 
         if op.type == 17:
@@ -2582,6 +2619,43 @@ def bot(op):
                                                     sw.kickoutFromGroup(op.param1,[op.param2])
                                                 except:
                                                     pass
+                return
+        if op.type == 55:
+            if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                wait["blacklist"][op.param2] = True
+                try:
+                    ki.cancelGroupInvitation(op.param1,[op.param3])
+                    ki.kickoutFromGroup(op.param1,[op.param2])
+                except:
+                    try:
+                        kk.cancelGroupInvitation(op.param1,[op.param3])
+                        kk.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            kc.cancelGroupInvitation(op.param1,[op.param3])
+                            kc.kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            try:
+                                ko.cancelGroupInvitation(op.param1,[op.param3])
+                                ko.kickoutFromGroup(op.param1,[op.param2])
+                            except:
+                                try:
+                                    jk.cancelGroupInvitation(op.param1,[op.param3])
+                                    jk.kickoutFromGroup(op.param1,[op.param2])
+                                except:
+                                    try:
+                                        ke.cancelGroupInvitation(op.param1,[op.param3])
+                                        ke.kickoutFromGroup(op.param1,[op.param2])
+                                    except:
+                                        try:
+                                            kw.cancelGroupInvitation(op.param1,[op.param3])
+                                            kw.kickoutFromGroup(op.param1,[op.param2])
+                                        except:
+                                            try:
+                                                sw.cancelGroupInvitation(op.param1,[op.param3])
+                                                sw.kickoutFromGroup(op.param1,[op.param2])
+                                            except:
+                                                pass
                 return    
                 
             if admin in op.param3:
