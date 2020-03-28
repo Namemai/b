@@ -28,41 +28,41 @@ botStart = time.time()
 msg_dict = {}
 msg_dict1 = {}
 #==============[ token 1 ]==============#
-cl = LINE("06555mai@gmail.com","mai06555mai")
+cl = LINE()
 cl.log("Auth Token : " + str(cl.authToken))
 cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
-ki = LINE("hhm34248@eoopy.com","mai06555mai")
+ki = LINE()
 ki.log("Auth Token : " + str(ki.authToken))
 ki.log("Timeline Token : " + str(ki.tl.channelAccessToken))
 
-kk = LINE("lad34018@eoopy.com","mai06555mai")
+kk = LINE()
 kk.log("Auth Token : " + str(kk.authToken))
 kk.log("Timeline Token : " + str(kk.tl.channelAccessToken))
 
-kc = LINE("tvm12228@zzrgg.com","mai06555mai")
+kc = LINE()
 kc.log("Auth Token : " + str(kc.authToken))
 kc.log("Timeline Token : " + str(kc.tl.channelAccessToken))
 
-ko = LINE("sps52529@eoopy.com","mai06555mai")
+ko = LINE()
 ko.log("Auth Token : " + str(ko.authToken))
 ko.log("Timeline Token : " + str(ko.tl.channelAccessToken))
 
-jk = LINE("lnw89314@bcaoo.com","mai06555mai")
+jk = LINE()
 jk.log("Auth Token : " + str(jk.authToken))
 jk.log("Timeline Token : " + str(jk.tl.channelAccessToken))
 
 
-ke = LINE("klb97756@bcaoo.com","mai06555mai")
+ke = LINE()
 ke.log("Auth Token : " + str(ke.authToken))
 ke.log("Timeline Token : " + str(ke.tl.channelAccessToken))
 
 
-kw = LINE("yip80399@eoopy.com","mai06555mai")
+kw = LINE()
 kw.log("Auth Token : " + str(kw.authToken))
 kw.log("Timeline Token : " + str(kw.tl.channelAccessToken))
 
-sw = LINE("rdd49652@zzrgg.com","mai06555mai")
+sw = LINE()
 sw.log("Auth Token : " + str(sw.authToken))
 sw.log("Timeline Token : " + str(sw.tl.channelAccessToken))
 #==============[●●●●●●]==============#
@@ -1465,8 +1465,44 @@ def bot(op):
                                             random.choice(ABC).cancelGroupInvitation(op.param1,[op.param2])
                                             random.choice(ABC).inviteIntoGroup(op.param1,[op.param3])
                                         except:
-                                            pass                
-                        
+                                            pass
+        if op.type == 13:
+            if op.param2 in wait["blacklist"]:
+                if op.param2 in Bots:
+                    pass
+                if op.param2 in owner:
+                    pass
+                if op.param2 in admin:
+                    pass
+                if op.param2 in staff:
+                    pass
+                else:
+                    wait["blacklist"][op.param2] = True                    
+                    try:
+                        ki.cancelGroupInvitation(op.param1,[op.param2])
+                    except:
+                        try:
+                            kk.cancelGroupInvitation(op.param1,[op.param2])
+                        except:
+                            try:
+                                kc.cancelGroupInvitation(op.param1,[op.param2])
+                            except:
+                                try:
+                                    ko.cancelGroupInvitation(op.param1,[op.param2])
+                                except:
+                                    try:
+                                        jk.cancleGroupInvitation(op.param1,[op.param2])
+                                    except:
+                                        try:
+                                            ke.cancleGroupInvitation(op.param1,[op.param2])
+                                        except:
+                                            try:
+                                                kw.cancleGroupInvitation(op.param1,[op.param2])
+                                            except:
+                                                try:
+                                                    sw.cancleGroupInvitation(op.param1,[op.param2])
+                                                except:
+                                                    pass
 
         if op.type == 17:
             if op.param2 in wait["blacklist"]:
@@ -2582,6 +2618,43 @@ def bot(op):
                                                     sw.kickoutFromGroup(op.param1,[op.param2])
                                                 except:
                                                     pass
+                return
+        if op.type == 55:
+            if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                wait["blacklist"][op.param2] = True
+                try:
+                    ki.cancelGroupInvitation(op.param1,[op.param3])
+                    ki.kickoutFromGroup(op.param1,[op.param2])
+                except:
+                    try:
+                        kk.cancelGroupInvitation(op.param1,[op.param3])
+                        kk.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            kc.cancelGroupInvitation(op.param1,[op.param3])
+                            kc.kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            try:
+                                ko.cancelGroupInvitation(op.param1,[op.param3])
+                                ko.kickoutFromGroup(op.param1,[op.param2])
+                            except:
+                                try:
+                                    jk.cancelGroupInvitation(op.param1,[op.param3])
+                                    jk.kickoutFromGroup(op.param1,[op.param2])
+                                except:
+                                    try:
+                                        ke.cancelGroupInvitation(op.param1,[op.param3])
+                                        ke.kickoutFromGroup(op.param1,[op.param2])
+                                    except:
+                                        try:
+                                            kw.cancelGroupInvitation(op.param1,[op.param3])
+                                            kw.kickoutFromGroup(op.param1,[op.param2])
+                                        except:
+                                            try:
+                                                sw.cancelGroupInvitation(op.param1,[op.param3])
+                                                sw.kickoutFromGroup(op.param1,[op.param2])
+                                            except:
+                                                pass
                 return    
                 
             if admin in op.param3:
