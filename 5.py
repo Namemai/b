@@ -2525,7 +2525,7 @@ def bot(op):
                         contact = cl.getContact(op.param2)
                         data = {
                                 "type": "flex",
-                                "altText": "by,mai",
+                                "altText": "Cannibal Killer",
                                 "contents": {
   "type": "bubble",
   "size": "nano",
@@ -2637,7 +2637,7 @@ def bot(op):
                         if mention ['M'] in mid:
                            contact = cl.getContact(msg._from)
                            cl.sendImageWithURL(msg._from, "http://dl.profile.line-cdn.net{}".format(contact.picturePath))
-                           sendMention1(sender, "╭──────────────────╮\n├🔹ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ sᴜᴅᴀʜ ᴀᴅᴅ  │\n╰──────────────────╯\n╭──────────────────\n├🔹ʀᴇᴀᴅʏ ʙᴏᴛ ᴘʀᴏᴛᴇᴄᴛ\n├🔹ʀᴏᴏᴍ sᴍᴜʟᴇ / ᴇᴠᴇɴᴛ \n├🔹ʀᴇᴀᴅʏ sʙ ᴏɴʟʏ \n├🔹sʙ ᴏɴʟʏ + ᴀᴊs \n├🔹sʙ + ᴀssɪsᴛ + ᴀᴊs \n├🔹ʟᴏɢɪɴ ᴊs / ʙʏᴘᴀs / ɴɪɴᴊᴀ\n├🔹ɴᴇᴡ ᴘᴇᴍʙᴜᴀᴛᴀɴ sᴄ ʙᴏᴛ \n├🔹ɴᴇᴡ ʙᴇʟᴀᴊᴀʀ ʙᴏᴛ \n├🔹ᴘᴇᴍᴀsᴀɴɢ sʙ ᴋᴇ ᴛᴇᴍᴘʟᴀᴛᴇ\n├🔹ʀᴇᴀᴅʏ ᴀᴋᴜɴ ᴄᴏɪɴ\n├🔹ʀᴇᴀᴅʏ ᴄᴏɪɴ ɢɪғᴛ \n╰────────────────── \n╭─────────────────\n├ line.me/ti/p/~mai06555mai\n╰─────────────────", [sender])
+                           sendMention1(sender, "╭──────────────────╮\n├🔹ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ sᴜᴅᴀʜ ᴀᴅᴅ  │\n╰──────────────────╯\n╭──────────────────\n├🔹ʀᴇᴀᴅʏ ʙᴏᴛ ᴘʀᴏᴛᴇᴄᴛ\n├🔹ʀᴏᴏᴍ sᴍᴜʟᴇ / ᴇᴠᴇɴᴛ \n├🔹ʀᴇᴀᴅʏ sʙ ᴏɴʟʏ \n├🔹sʙ ᴏɴʟʏ + ᴀᴊs \n├🔹sʙ + ᴀssɪsᴛ + ᴀᴊs \n├🔹ʟᴏɢɪɴ ᴊs / ʙʏᴘᴀs / ɴɪɴᴊᴀ\n├🔹ɴᴇᴡ ᴘᴇᴍʙᴜᴀᴛᴀɴ sᴄ ʙᴏᴛ \n├🔹ɴᴇᴡ ʙᴇʟᴀᴊᴀʀ ʙᴏᴛ \n├🔹ᴘᴇᴍᴀsᴀɴɢ sʙ ᴋᴇ ᴛᴇᴍᴘʟᴀᴛᴇ\n├🔹ʀᴇᴀᴅʏ ᴀᴋᴜɴ ᴄᴏɪɴ\n├🔹ʀᴇᴀᴅʏ ᴄᴏɪɴ ɢɪғᴛ \n╰────────────────── \n╭─────────────────\n├ line.me/ti/p/~4rman3\n╰─────────────────", [sender])
                            break
                            
                if msg.contentType == 7:
@@ -2817,32 +2817,58 @@ def bot(op):
                         if Amid in Setmain["RAfoto"]:
                             path = ki.downloadObjectMsg(msg_id)
                             del Setmain["RAfoto"][Amid]
-                            ki.updateProfilePicture(path1)
+                            ki.updateProfilePicture(path)
                             ki.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
                         elif Bmid in Setmain["RAfoto"]:
                             path = kk.downloadObjectMsg(msg_id)
                             del Setmain["RAfoto"][Bmid]
-                            kk.updateProfilePicture(path2)
+                            kk.updateProfilePicture(path)
                             kk.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
                         elif Cmid in Setmain["RAfoto"]:
                             path = kc.downloadObjectMsg(msg_id)
                             del Setmain["RAfoto"][Cmid]
-                            kc.updateProfilePicture(path3)
+                            kc.updateProfilePicture(path)
                             kc.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
                         elif Dmid in Setmain["RAfoto"]:
                             path = ko.downloadObjectMsg(msg_id)
                             del Setmain["RAfoto"][Dmid]
-                            ko.updateProfilePicture(path4)
+                            ko.updateProfilePicture(path)
                             ko.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
                         elif Bmid in Setmain["RAfoto"]:
                             path = jk.downloadObjectMsg(msg_id)
                             del Setmain["RAfoto"][Emid]
-                            jk.updateProfilePicture(path5)
+                            jk.updateProfilePicture(path)
                             jk.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
+                        elif Cmid in Setmain["RAfoto"]:
+                            path = bu.downloadObjectMsg(msg_id)
+                            del Setmain["RAfoto"][Fmid]
+                            bu.updateProfilePicture(path)
+                            bu.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
+                        elif Dmid in Setmain["RAfoto"]:
+                            path = bi.downloadObjectMsg(msg_id)
+                            del Setmain["RAfoto"][Gmid]
+                            bi.updateProfilePicture(path)
+                            bi.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
+                        elif Cmid in Setmain["RAfoto"]:
+                            path = bo.downloadObjectMsg(msg_id)
+                            del Setmain["RAfoto"][Hmid]
+                            bo.updateProfilePicture(path)
+                            bo.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
+                        elif Dmid in Setmain["RAfoto"]:
+                            path = be.downloadObjectMsg(msg_id)
+                            del Setmain["RAfoto"][Imid]
+                            be.updateProfilePicture(path)
+                            be.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
+                        elif Dmid in Setmain["RAfoto"]:
+                            path = by.downloadObjectMsg(msg_id)
+                            del Setmain["RAfoto"][Jmid]
+                            by.updateProfilePicture(path)
+                            by.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
+                            
                         elif Zmid in Setmain["RAfoto"]:
                             path = sw.downloadObjectMsg(msg_id)
                             del Setmain["RAfoto"][Zmid]
-                            sw.updateProfilePicture(path6)
+                            sw.updateProfilePicture(path)
                             sw.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
 
                if msg.contentType == 1:
@@ -2852,8 +2878,6 @@ def bot(op):
                      path2 = kk.downloadObjectMsg(msg_id)
                      path3 = kc.downloadObjectMsg(msg_id)
                      path4 = ko.downloadObjectMsg(msg_id)
-                     path5 = kc.downloadObjectMsg(msg_id)
-                     path6 = ko.downloadObjectMsg(msg_id)
                      settings["changePicture"] = False
                      ki.updateProfilePicture(path1)
                      ki.sendMessage(msg.to, "🔹ғᴏᴛᴏ ʙᴏᴛ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
@@ -2863,10 +2887,6 @@ def bot(op):
                      kc.sendMessage(msg.to, "🔹ғᴏᴛᴏ ʙᴏᴛ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
                      ko.updateProfilePicture(path4)
                      ko.sendMessage(msg.to, "🔹ғᴏᴛᴏ ʙᴏᴛ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
-                     jk.updateProfilePicture(path3)
-                     jk.sendMessage(msg.to, "🔹ғᴏᴛᴏ ʙᴏᴛ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
-                     sw.updateProfilePicture(path4)
-                     sw.sendMessage(msg.to, "🔹ғᴏᴛᴏ ʙᴏᴛ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
 
                if msg.contentType == 0:
                     if Setmain["autoRead"] == True:
@@ -2889,7 +2909,7 @@ def bot(op):
                         elif cmd == "help":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin:
-                               sendTextTemplate(msg.to, "╭─────╮\n├🔹ʜᴇʟᴘ\n├🔹ᴍᴇɴᴜ\n├🔹ʜᴇʟᴘ¹\n├🔹ʜᴇʟᴘ²\n├🔹ʜᴇʟᴘ³\n├🔹ʜᴇʟᴘ⁴\n├🔹ʜᴇʟᴘ⅝\n├🔹ᴍʏsᴇᴛ\n├🔹ᴊᴏᴏx-ᴊᴜᴅᴜʟ\n├🔹ɢs ᴛᴀɢ\n├🔹ᴋᴄ ᴛᴀɢ\n├🔹ʜᴇʀᴇ\n├🔹ᴏᴜᴛ\n├🔹ʀs\n├🔹ʙᴄ¹:\n├🔹ʙʀᴏᴀᴅᴄᴀsᴛ:\n├🔹ᴀʙᴏᴜᴛ\n╰──────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ :Mai\n╰───────────────────────")
+                               sendTextTemplate(msg.to, "╭─────╮\n├🔹ʜᴇʟᴘ\n├🔹ᴍᴇɴᴜ\n├🔹ʜᴇʟᴘ¹\n├🔹ʜᴇʟᴘ²\n├🔹ʜᴇʟᴘ³\n├🔹ʜᴇʟᴘ⁴\n├🔹ʜᴇʟᴘ⅝\n├🔹ᴍʏsᴇᴛ\n├🔹ᴊᴏᴏx-ᴊᴜᴅᴜʟ\n├🔹ɢs ᴛᴀɢ\n├🔹ᴋᴄ ᴛᴀɢ\n├🔹ʜᴇʀᴇ\n├🔹ᴏᴜᴛ\n├🔹ʀs\n├🔹ʙᴄ¹:\n├🔹ʙʀᴏᴀᴅᴄᴀsᴛ:\n├🔹ᴀʙᴏᴜᴛ\n╰──────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ : Cannibal\n╰───────────────────────")
  
                         elif cmd == "self off":
                             if msg._from in admin:
@@ -2899,7 +2919,7 @@ def bot(op):
                         elif cmd == "help1":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin:
-                               sendTextTemplate(msg.to, "╭───────────╮\n├🔹ɴᴏᴛᴀɢ ᴏɴ|ᴏғғ\n├🔹ᴀʟʟᴘʀᴏ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴜʀʟ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴊᴏɪɴ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴋɪᴄᴋ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴄᴀɴᴄᴇʟ ᴏɴ|ᴏғғ\n╰───────────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ :Mai\n╰───────────────────────")                 
+                               sendTextTemplate(msg.to, "╭───────────╮\n├🔹ɴᴏᴛᴀɢ ᴏɴ|ᴏғғ\n├🔹ᴀʟʟᴘʀᴏ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴜʀʟ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴊᴏɪɴ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴋɪᴄᴋ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴄᴀɴᴄᴇʟ ᴏɴ|ᴏғғ\n╰───────────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ : Cannibal\n╰───────────────────────")                 
                         elif cmd == "help2":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
@@ -2908,15 +2928,15 @@ def bot(op):
                         elif cmd == "help3":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin:
-                               sendTextTemplate(msg.to, "╭───────╮\n├🔹ʜᴀʜ\n├🔹sᴜᴇ\n├🔹ᴡᴏʏ/ᴄᴏʟᴏᴋ\n├🔹sᴇᴅɪʜ\n├🔹sᴇᴘɪ\n├🔹ʜᴀᴅᴇʜ\n├🔹ᴊᴜᴍʟᴀʜ:\n├🔹sᴛᴀɢ ᴛᴀɢ\n├🔹sᴘᴀᴍᴄᴀʟʟ: ᴊᴜᴍʟᴀʜ\n├🔹sᴘᴀᴍᴄᴀʟʟ\n╰──────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ :Mai\n╰───────────────────────")
+                               sendTextTemplate(msg.to, "╭───────╮\n├🔹ʜᴀʜ\n├🔹sᴜᴇ\n├🔹ᴡᴏʏ/ᴄᴏʟᴏᴋ\n├🔹sᴇᴅɪʜ\n├🔹sᴇᴘɪ\n├🔹ʜᴀᴅᴇʜ\n├🔹ᴊᴜᴍʟᴀʜ:\n├🔹sᴛᴀɢ ᴛᴀɢ\n├🔹sᴘᴀᴍᴄᴀʟʟ: ᴊᴜᴍʟᴀʜ\n├🔹sᴘᴀᴍᴄᴀʟʟ\n╰──────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ : Cannibal\n╰───────────────────────")
                         elif cmd == "help4":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin:
-                               sendTextTemplate(msg.to, "╭───────────╮\n├🔹ʀᴇsᴘᴏɴ ᴏɴ|ᴏғғ\n├🔹ᴄᴏɴᴛᴀᴄᴛ ᴏɴ|ᴏғғ\n├🔹ᴀᴜᴛᴏᴊᴏɪɴ ᴏɴ|ᴏғғ\n├🔹ᴀᴜᴛᴏᴀᴅᴅ ᴏɴ|ᴏғғ\n├🔹ᴀᴜᴛᴏʟᴇᴀᴠᴇ ᴏɴ|ᴏғғ\n├🔹ᴡᴇʟᴄᴏᴍᴇ ᴏɴ|ᴏғғ\n├??ᴊᴀɴᴅᴀ ᴏɴ|ᴏғғ\n╰───────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ :Mai\n╰───────────────────────")
+                               sendTextTemplate(msg.to, "╭───────────╮\n├🔹ʀᴇsᴘᴏɴ ᴏɴ|ᴏғғ\n├🔹ᴄᴏɴᴛᴀᴄᴛ ᴏɴ|ᴏғғ\n├🔹ᴀᴜᴛᴏᴊᴏɪɴ ᴏɴ|ᴏғғ\n├🔹ᴀᴜᴛᴏᴀᴅᴅ ᴏɴ|ᴏғғ\n├🔹ᴀᴜᴛᴏʟᴇᴀᴠᴇ ᴏɴ|ᴏғғ\n├🔹ᴡᴇʟᴄᴏᴍᴇ ᴏɴ|ᴏғғ\n├??ᴊᴀɴᴅᴀ ᴏɴ|ᴏғғ\n╰───────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ : ᴀʙɪ Cannibal\n╰───────────────────────")
                         elif cmd == "help5":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin:
-                               sendTextTemplate(msg.to, "╭─────────╮\n├🔹ᴀᴅᴍɪɴ:ᴏɴ\n├🔹ᴀᴅᴍɪɴ:ʀᴇᴘᴇᴀᴛ\n├🔹sᴛᴀғғ:ᴏɴ\n├🔹sᴛᴀғғ:ʀᴇᴘᴇᴀᴛ\n├🔹ᴀᴅᴍɪɴᴀᴅᴅ ᴛᴀɢ\n├🔹ᴀ ᴛᴀɢ\n├🔹s ᴛᴀɢ\n├🔹s ᴛᴀɢ\n├🔹ʙᴏᴛᴀᴅᴅ ᴛᴀɢ\n├🔹ʙᴏᴛᴅᴇʟʟ ᴛᴀɢ\n├🔹ʀᴇғʀᴇsʜ\n├🔹ʟɪsᴛʙᴏᴛ\n├🔹ʟɪsᴛᴀᴅᴍɪɴ\n├🔹ʟɪsᴛᴘʀᴏᴛᴇᴄᴛ\n├🔹sᴇʟғ ᴏɴ|ᴏғғ\n╰─────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ :Mai\n╰───────────────────────")
+                               sendTextTemplate(msg.to, "╭─────────╮\n├🔹ᴀᴅᴍɪɴ:ᴏɴ\n├🔹ᴀᴅᴍɪɴ:ʀᴇᴘᴇᴀᴛ\n├🔹sᴛᴀғғ:ᴏɴ\n├🔹sᴛᴀғғ:ʀᴇᴘᴇᴀᴛ\n├🔹ᴀᴅᴍɪɴᴀᴅᴅ ᴛᴀɢ\n├🔹ᴀ ᴛᴀɢ\n├🔹s ᴛᴀɢ\n├🔹s ᴛᴀɢ\n├🔹ʙᴏᴛᴀᴅᴅ ᴛᴀɢ\n├🔹ʙᴏᴛᴅᴇʟʟ ᴛᴀɢ\n├🔹ʀᴇғʀᴇsʜ\n├🔹ʟɪsᴛʙᴏᴛ\n├🔹ʟɪsᴛᴀᴅᴍɪɴ\n├🔹ʟɪsᴛᴘʀᴏᴛᴇᴄᴛ\n├🔹sᴇʟғ ᴏɴ|ᴏғғ\n╰─────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ : Cannibal\n╰───────────────────────")
                         
                         elif cmd.startswith("broadcast: "):
                            if msg._from in admin:
@@ -3438,7 +3458,7 @@ def bot(op):
                                 else: md+="├🔹ᴘʀᴏᴛᴇᴄᴛᴋɪᴄᴋ ᴏғғ\n"
                                 if msg.to in protectcancel: md+="├🔹ᴘʀᴏᴛᴇᴄᴛᴄᴀɴᴄᴇʟ ᴏɴ\n"
                                 else: md+="├🔹ᴘʀᴏᴛᴇᴄᴛᴄᴀɴᴄᴇʟ ᴏғғ\n╰──────────────╯\n"
-                                sendTextTemplate(msg.to, md+"\nᴛᴀɴɢɢᴀʟ : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nᴊᴀᴍ [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]"
+                                sendTextTemplate(msg.to, md+"\nᴛᴀɴɢɢᴀʟ : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nᴊᴀᴍ [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
 
                         elif cmd == "owner" or text.lower() == 'creator':
                             if msg._from in admin:
@@ -3621,7 +3641,7 @@ def bot(op):
             "color": "#FF0000"
           },
           {
-            "text": "by,mai\n\nSelfbot",
+            "text": "Team Cannibal\n\nSelfbot",
             "size": "xs",
             "color": "#FF0000",
             "wrap": True,
@@ -3640,7 +3660,7 @@ def bot(op):
       {
         "contents": [
           {
-            "text": "by,mai Bot",
+            "text": "Cannibal Team Bot",
             "size": "xs",
             "align": "center",
             "color": "#00FFFF",
@@ -3725,7 +3745,7 @@ def bot(op):
           {
             "contents": [
               {
-                "text": "ᴠᴇʀsɪ : by,mai",
+                "text": "ᴠᴇʀsɪ : Cannibal",
                 "size": "xs",
                 "margin": "none",
                 "color": "#FFFF00",
@@ -3740,7 +3760,7 @@ def bot(op):
           {
             "contents": [
               {
-                "text": "Support By mai",
+                "text": "Support By Cannibal Killer",
                 "size": "xs",
                 "margin": "none",
                 "color": "#FF6347",
@@ -3774,7 +3794,7 @@ def bot(op):
         "color": "#7CFC00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~mai06555mai"
+          "uri": "http://line.me/ti/p/~4rman3"
         },
         "align": "center"
       },
@@ -3784,14 +3804,14 @@ def bot(op):
       },
       {
         "type": "text",
-        "text": "by,mai",
+        "text": "Cannibal Killer",
         "size": "xs",
         "wrap": True,
         "weight": "bold",
         "color": "#7CFC00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~mai06555mai"
+          "uri": "http://line.me/ti/p/~4rman3"
         },
         "align": "center"
       }
@@ -3806,7 +3826,7 @@ def bot(op):
                             if msg._from in admin:
                                   musik(to)
                                   
-                        elif cmd == "me" or text.lower() == 'มี':
+                        elif cmd == ".me" or text.lower() == 'มี':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 msg.contentType = 13
@@ -3875,7 +3895,7 @@ def bot(op):
                                msg.contentMetadata = {'mid': Zmid}
                                cl.sendMessage1(msg)
 
-                        elif text.lower() == "ลบแชท":
+                        elif text.lower() == "hapuschat":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                try:
@@ -3884,7 +3904,7 @@ def bot(op):
                                except:
                                    pass
 
-                        elif text.lower() == "ลบแชทคิก":
+                        elif text.lower() == "all clear":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                try:
@@ -3893,11 +3913,7 @@ def bot(op):
                                    kk.removeAllMessages(op.param2)
                                    kk.sendMessage(msg.to,"🔹ʜᴀᴘᴜs ᴄʜᴀᴛ ʙᴏᴛ ᴅᴏɴᴇ")
                                    kc.removeAllMessages(op.param2)
-                                   kc.sendMessage(msg.to,"🔹ʜᴀᴘᴜs ᴄʜᴀᴛ ʙᴏᴛ ᴅᴏɴᴇ") 
-                                   ko.removeAllMessages(op.param2)
-                                   ko.sendMessage(msg.to,"🔹ʜᴀᴘᴜs ᴄʜᴀᴛ ʙᴏᴛ ᴅᴏɴᴇ")
-                                   jk.removeAllMessages(op.param2)
-                                   jk.sendMessage(msg.to,"🔹ʜᴀᴘᴜs ᴄʜᴀᴛ ʙᴏᴛ ᴅᴏɴᴇ")
+                                   kc.sendMessage(msg.to,"🔹ʜᴀᴘᴜs ᴄʜᴀᴛ ʙᴏᴛ ᴅᴏɴᴇ")                              
                                    sendTextTemplate(msg.to,"🔹ʜᴀᴘᴜs ᴄʜᴀᴛ ʙᴏᴛ ᴅᴏɴᴇ")
                                except:
                                    pass
@@ -3915,7 +3931,7 @@ def bot(op):
         "aspectMode": "cover",
         "url": "https://media1.giphy.com/media/fnKtAO0GLeiD6/200w.webp?cid=19f5b51a5c454d542f704f7a6395da37",
         "action": {
-          "uri": "http://line.me/ti/p/~mai06555mai",
+          "uri": "http://line.me/ti/p/~4rman3",
           "type": "uri"
         },
         "type": "image",
@@ -3976,7 +3992,7 @@ def bot(op):
             "color": "#FFFFFF",
             "action": {
               "type": "uri",
-              "uri": "http://line.me/ti/p/~mai06555mai"
+              "uri": "http://line.me/ti/p/~4rman3"
             },
             "align": "center"            
           }
@@ -4002,6 +4018,7 @@ def bot(op):
   ],
   "type": "carousel"
 }
+                                   #cl.postFlex(group, data)
 
                         elif text.lower() == "mykey":
                           if wait["selfbot"] == True:
@@ -4037,7 +4054,7 @@ def bot(op):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                eltime = time.time() - mulai
-                               bot = "🔹ʙᴏᴛ🔹\n" +waktu(eltime)
+                               bot = "🔹ʙᴏᴛ ᴀᴋᴛɪғ sᴇʟᴀᴍᴀ🔹\n" +waktu(eltime)
                                sendTextTemplate(msg.to,bot)
                             
                         elif cmd == "ginfo":
@@ -4213,7 +4230,7 @@ def bot(op):
                                    ma += "├🔹" + str(a) + ". " +G.name+ "\n"
                                ko.sendMessage(msg.to,"╭── 🔹ɢʀᴏᴜᴘ ʟɪsᴛ🔹\n│\n"+ma+"│\n╰──🔹ᴛᴏᴛᴀʟ"+str(len(gid))+"ɢʀᴏᴜᴘ🔹")                               
 
-                        elif cmd == "เปิดลิ้ง":
+                        elif cmd == "open":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 if msg.toType == 2:
@@ -4222,7 +4239,7 @@ def bot(op):
                                    cl.updateGroup(X)
                                    sendTextTemplate(msg.to, "🔹ᴏᴘᴇɴ ᴜʀʟ")
 
-                        elif cmd == "ปิดลิ้ง":
+                        elif cmd == "close":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 if msg.toType == 2:
@@ -4231,7 +4248,7 @@ def bot(op):
                                    cl.updateGroup(X)
                                    sendTextTemplate(msg.to, "🔹ᴄʟᴏsᴇ ᴜʀʟ")
 
-                        elif cmd == "ลิ้ง":
+                        elif cmd == "url grup":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 if msg.toType == 2:
@@ -4285,7 +4302,32 @@ def bot(op):
                         elif cmd == "bot5":
                             if msg._from in admin:
                                 Setmain["RAfoto"][Emid] = True
-                                jk.sendMessage(msg.to,"🔹ᴋɪʀɪᴍ ғᴏᴛᴏɴʏᴀ")                                                           
+                                sw.sendMessage(msg.to,"🔹ᴋɪʀɪᴍ ғᴏᴛᴏɴʏᴀ")                                
+                                
+                        elif cmd == "bot6":
+                            if msg._from in admin:
+                                Setmain["RAfoto"][Fmid] = True
+                                sw.sendMessage(msg.to,"🔹ᴋɪʀɪᴍ ғᴏᴛᴏɴʏᴀ")                                
+                                
+                        elif cmd == "bot7":
+                            if msg._from in admin:
+                                Setmain["RAfoto"][Gmid] = True
+                                sw.sendMessage(msg.to,"🔹ᴋɪʀɪᴍ ғᴏᴛᴏɴʏᴀ")                                
+                                
+                        elif cmd == "bot8":
+                            if msg._from in admin:
+                                Setmain["RAfoto"][Hmid] = True
+                                sw.sendMessage(msg.to,"🔹ᴋɪʀɪᴍ ғᴏᴛᴏɴʏᴀ")                                
+                                
+                        elif cmd == "bot9":
+                            if msg._from in admin:
+                                Setmain["RAfoto"][Imid] = True
+                                sw.sendMessage(msg.to,"🔹ᴋɪʀɪᴍ ғᴏᴛᴏɴʏᴀ")                                
+                                
+                        elif cmd == "bot10":
+                            if msg._from in admin:
+                                Setmain["RAfoto"][Jmid] = True
+                                sw.sendMessage(msg.to,"🔹ᴋɪʀɪᴍ ғᴏᴛᴏɴʏᴀ")                                
                                 
                         elif cmd == "bot11":
                             if msg._from in admin:
@@ -4369,7 +4411,7 @@ def bot(op):
                                     txt += u'@Zero \n'
                                 cl.sendMessage(msg.to, text=txt, contentMetadata={u'MENTION': json.dumps({'MENTIONEES':b})}, contentType=0)
 
-                        elif cmd == "ชื่อบอท":
+                        elif cmd == "listbot":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 ma = ""
@@ -4426,7 +4468,7 @@ def bot(op):
                                     mc += str(c) + ". " +cl.getContact(m_id).displayName + "\n"
                                 sendTextTemplate3(msg.to,"🔹ᴀᴅᴍɪɴ ᴀʙɪ🔹\n\n🔹sᴜᴘᴇʀ ᴀᴅᴍɪɴ :\n"+ma+"\n🔹ᴀᴅᴍɪɴ :\n"+mb+"\n🔹sᴛᴀғғ :\n"+mc+"\n🔹ᴊᴜᴍʟᴀʜ ᴀᴅᴍɪɴ ᴀʙɪ「%s」🔹" %(str(len(owner)+len(admin)+len(staff))))
 
-                        elif cmd == "set2":
+                        elif cmd == "listprotect":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 ma = ""
@@ -4607,11 +4649,11 @@ def bot(op):
                         elif cmd == "bb":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               ki.sendMessage(msg.to, "ʀᴇᴀᴅʏ ok")
-                               kk.sendMessage(msg.to, "ʀᴇᴀᴅʏ ok")
-                               kc.sendMessage(msg.to, "ʀᴇᴀᴅʏ ok")
-                               ko.sendMessage(msg.to, "ʀᴇᴀᴅʏ ok")
-                               jk.sendMessage(msg.to, "ʀᴇᴀᴅʏ ok")
+                               ki.sendMessage(msg.to, "ʀᴇᴀᴅʏ ʙᴏssᴋᴜ")
+                               kk.sendMessage(msg.to, "ʀᴇᴀᴅʏ ʙᴏssᴋᴜ")
+                               kc.sendMessage(msg.to, "ʀᴇᴀᴅʏ ʙᴏssᴋᴜ")
+                               ko.sendMessage(msg.to, "ʀᴇᴀᴅʏ ʙᴏssᴋᴜ")
+                               jk.sendMessage(msg.to, "ʀᴇᴀᴅʏ ʙᴏssᴋᴜ")
                                 
                         elif cmd == "as1":
                             if msg._from in admin:
@@ -4698,7 +4740,7 @@ def bot(op):
                                 get_contact_time = time.time() - get_contact_time_start
                                 sendTextTemplate(msg.to, " 🔹ᴋᴇᴄᴇᴘᴀᴛᴀɴ ʀᴇsᴘᴏɴ🔹\n\n🔹ɢᴇᴛ ᴘʀᴏғɪʟᴇ\n🔹   %.10f\n🔹ɢᴇᴛ ᴄᴏɴᴛᴀᴄᴛ\n🔹   %.10f\n🔹ɢᴇᴛ ɢʀᴏᴜᴘ\n🔹   %.10f" % (get_profile_time/3,get_contact_time/3,get_group_time/3))
 
-                        elif cmd == "speedbot" or cmd == "spb":
+                        elif cmd == "/speed" or cmd == "sp:
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                start = time.time()
@@ -4717,7 +4759,7 @@ def bot(op):
                                 get_profile = cl.getProfile()
                                 get_profile_time = time.time() - get_profile_time_start
                                 sendTextTemplate(msg.to, "ᴡᴀɪᴛ...")
-                                sendTextTemplate(msg.to, "╭───────────────────╮\n mai \n╰───────────────────╯" % (get_profile_time/3))
+                                sendTextTemplate(msg.to, "╭───────────────────╮\n%.10f Cannibal\n╰───────────────────╯" % (get_profile_time/3))
 
                         elif cmd == "lurking on":
                           if wait["selfbot"] == True:
@@ -5199,9 +5241,9 @@ def bot(op):
                                   cl.sendMessage(msg.to, None, contentMetadata={'mid': conn.mid}, contentType=13)
 
 #===========Protection============#
-                        elif 'ต้อนรับ ' in msg.text:
+                        elif 'Welcome ' in msg.text:
                            if msg._from in admin:
-                              spl = msg.text.replace('ต้อนรับ ','')
+                              spl = msg.text.replace('Welcome ','')
                               if spl == 'on':
                                   if msg.to in welcome:
                                        msgs = "sᴀᴍʙᴜᴛᴀɴ ᴀᴋᴛɪғ"
@@ -5239,9 +5281,9 @@ def bot(op):
                                          msgs = ""
                                     sendTextTemplate(msg.to, "🔹sᴜᴅᴀʜ ᴅɪ ɴᴏɴᴀᴋᴛɪғᴋᴀɴ\n" + msgs)
                                     
-                        elif 'G ' in msg.text:
+                        elif 'Gs ' in msg.text:
                            if msg._from in admin:
-                              spl = msg.text.replace('G ','')
+                              spl = msg.text.replace('Ghost ','')
                               if spl == 'on':
                                   if msg.to in ghost:
                                        msgs = "🔹sɪᴀᴘ ʙᴀɴᴛᴀɪ ᴋɪᴋɪʟ ᴛᴇᴍᴘᴇ"
@@ -5259,9 +5301,9 @@ def bot(op):
                                          msgs = ""
                                     sendTextTemplate(msg.to, "🔹ɢʜᴏsᴛ ᴅɪ ɴᴏɴᴀᴋᴛɪғᴋᴀɴ\n" + msgs)
 
-                        elif 'Allpro ' in msg.text:
+                        elif 'Allprotect ' in msg.text:
                            if msg._from in admin:
-                              spl = msg.text.replace('Allpro ','')
+                              spl = msg.text.replace('Allprotect ','')
                               if spl == 'on':
                                   if msg.to in protectqr:
                                        msgs = ""
@@ -5306,7 +5348,7 @@ def bot(op):
                                     sendTextTemplate(msg.to, "sᴇᴍᴜᴀ ᴘʀᴏ ᴅɪ ᴍᴀᴛɪᴋᴀɴ\n" + msgs)
 
 #=========== KICKOUT ============#
-                        elif ("babat " in msg.text):
+                        elif ("vk " in msg.text):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                key = eval(msg.contentMetadata["MENTION"])
@@ -5356,8 +5398,112 @@ def bot(op):
                                           print (msg.to,[g.mid])
                                       except:
                                           ki.sendMessage(msg.to,"♦️ᴘᴇʀᴍɪsɪ sᴇᴍᴜᴀ ɴʏᴀ♦️") 
+                                       
+                        elif cmd == "kibar":
+                          if wait["selfbot"] == True:
+                            if msg._from in admin:
+                               cl.sendMessage(msg.to, "ʜʜʜᴀᴀᴀᴀɪɪɪɪ!!! \nᴀᴘᴀ ᴋᴀʙᴀʀ sᴇᴍᴜᴀ\nᴍᴀᴀᴀғғғ ʀᴏᴏᴍ ᴋᴀʟɪᴀɴ ᴅᴀʟᴀᴍ ᴘᴇɴɢɢᴜsᴜʀᴀɴ \n\nᴋᴇʙᴀɴʏᴀᴋᴀɴ ʙᴀᴄᴏᴛ ᴅᴀɴ ᴀɴᴜ\nᴀʙɪ ᴏʟᴇɴɢ ᴅᴀɴ ᴛᴇᴀᴍ ʜᴀᴅɪʀ\nᴍᴀᴜ ʙᴀʙᴀᴛ ɢᴄ ɢᴀᴋ ᴊᴇʟᴀs\nɴᴏ ʙᴀᴄᴏᴛ \nɴᴏ ᴅᴇsᴀʜ \nɴᴏ ᴄᴏᴍᴍᴇɴᴛ \nɴᴏ ᴋᴏᴀʀ ᴋᴏᴀʀ \nɴᴏ ɴᴀɴɢɪs \nᴋᴀsɪᴀɴ ᴅᴇʟʟʟᴏᴏᴏ\nʀᴏᴏᴍ ᴏᴋᴇᴘ \nʀᴏᴏᴍ ᴊᴜᴅɪ\nʀᴏᴏᴍ ɢᴀᴋ ᴊᴇʟᴀs\nsɪᴀᴘ ᴋɪᴛᴀ ʙᴀʙᴀᴛ ᴅᴀɴ ʙᴀɴᴛᴀɪɪɪ \n\n\n\n ʙᴀᴘᴀᴋ ᴋᴀᴜᴜᴜ...\nᴋᴇɴᴀᴘᴀ ᴋᴀᴜ ᴅɪᴀᴍ ɴᴊɪɪɪɴɴɢɢɢɢ\nᴛᴀɴɢᴋɪss ɴʏᴇᴇᴛ ᴛᴀɴɢᴋɪss ᴊᴀɴɢᴀɴ ɴʏᴀᴍᴜᴋ ᴀᴊᴀ\n\n\nᴅᴀsᴀʀ ʀᴏᴏᴍ ᴘᴇᴀ ɢᴜᴏʙʟᴏᴋ sᴇᴛᴀɴ\nᴍᴀᴀғ ᴄᴇᴇᴇɴɢɢᴇɴɢ\nɢᴄ ᴋᴀᴜ ᴀᴋᴜ sɪᴛᴀ...!!!\n\n\n sᴀʟᴀᴍ ᴅᴀʀɪ ᴋᴀᴍɪ ᴀʙɪ Cannibal\n\nᴍᴀᴍᴘɪʀ ᴅɪ ɢᴄ ᴋᴀʟɪᴀɴ\n\nʀᴀᴛᴀ ɢᴀᴋ ʀᴀᴛᴀ ʏᴀɴɢ ᴘᴇɴᴛɪɴɢ ᴋɪʙᴀʀ ᴅᴀɴ ᴅᴇsᴀʜɪɴ ɢᴄ ᴋᴀᴜ \nʀᴀᴛᴀ ᴀᴋᴜ sᴇɴᴀɴɢ\nᴋʟᴏ ɢᴀᴋ ʀᴀᴛᴀ ᴛᴜɴɢɢᴜ ᴋᴇʜᴀᴅɪʀᴀɴ ᴀᴋᴜ ʟᴀɢɪ\n\n\n  >>⛔sᴀʟᴀᴍ Cipok Cannibal⛔<< \n\n\n>>⛔Cannibal ᴋɪʟʟᴇʀ ʟᴇsᴛ ɢᴏ⛔<<\n\n\n                    ᴄʀᴇᴀᴛᴏʀ\n\n<<<<<<<<<<Cannibal>>>>>>>>>>\n\nhttp://line.me/ti/p/~4rman3")
+                               cl.sendContact(to, mid)
+                               cl.sendContact(to, Amid)
+                               cl.sendContact(to, Bmid)
+                               cl.sendContact(to, Cmid)
+                               cl.sendContact(to, Dmid)
+                               cl.sendContact(to, Emid)
+                               cl.sendContact(to, Zmid)        
+                               cl.sendContact(to, Amid)
+                               cl.sendContact(to, Bmid)
+                               cl.sendContact(to, Cmid)
+                               cl.sendContact(to, Dmid)
+                               cl.sendContact(to, Emid)
+                               cl.sendContact(to, Zmid)        
+                               cl.sendContact(to, Amid)
+                               cl.sendContact(to, Bmid)
+                               cl.sendContact(to, Cmid)
+                               cl.sendContact(to, Dmid)
+                               cl.sendContact(to, Emid)
+                               cl.sendContact(to, Zmid)        
+                               cl.sendContact(to, Amid)
+                               cl.sendContact(to, Bmid)
+                               cl.sendContact(to, Cmid)
+                               cl.sendContact(to, Dmid)
+                               cl.sendContact(to, Emid)
+                               cl.sendContact(to, Zmid)  
+                               cl.sendContact(to, Amid)
+                               cl.sendContact(to, Bmid)
+                               cl.sendContact(to, Cmid)
+                               cl.sendContact(to, Dmid)
+                               cl.sendContact(to, Emid)
+                               cl.sendContact(to, Zmid)
+                               cl.sendContact(to, Amid)
+                               cl.sendContact(to, Bmid)
+                               cl.sendContact(to, Cmid)
+                               cl.sendContact(to, Dmid)
+                               cl.sendContact(to, Emid)
+                               cl.sendContact(to, Zmid)
+                               cl.sendContact(to, Amid)
+                               cl.sendContact(to, Bmid)
+                               cl.sendContact(to, Cmid)
+                               cl.sendContact(to, Dmid)
+                               cl.sendContact(to, Emid)
+                               cl.sendContact(to, Zmid)
+                               cl.sendContact(to, Amid)
+                               cl.sendContact(to, Bmid)
+                               cl.sendContact(to, Cmid)
+                               cl.sendContact(to, Dmid)
+                               cl.sendContact(to, Emid)
+                               cl.sendContact(to, Zmid)
+                               cl.sendContact(to, Amid)
+                               cl.sendContact(to, Bmid)
+                               cl.sendContact(to, Cmid)
+                               cl.sendContact(to, Dmid)
+                               cl.sendContact(to, Emid)
+                               cl.sendContact(to, Zmid)        
+                               cl.sendContact(to, Amid)
+                               cl.sendContact(to, Bmid)
+                               cl.sendContact(to, Cmid)
+                               cl.sendContact(to, Dmid)
+                               cl.sendContact(to, Emid)
+                               cl.sendContact(to, Zmid)        
+                               cl.sendContact(to, Amid)
+                               cl.sendContact(to, Bmid)
+                               cl.sendContact(to, Cmid)
+                               cl.sendContact(to, Dmid)
+                               cl.sendContact(to, Emid)
+                               cl.sendContact(to, Zmid)        
+                               cl.sendContact(to, Amid)
+                               cl.sendContact(to, Bmid)
+                               cl.sendContact(to, Cmid)
+                               cl.sendContact(to, Dmid)
+                               cl.sendContact(to, Emid)
+                               cl.sendContact(to, Zmid)  
+                               cl.sendContact(to, Amid)
+                               cl.sendContact(to, Bmid)
+                               cl.sendContact(to, Cmid)
+                               cl.sendContact(to, Dmid)
+                               cl.sendContact(to, Emid)
+                               cl.sendContact(to, Zmid)
+                               cl.sendContact(to, Amid)
+                               cl.sendContact(to, Bmid)
+                               cl.sendContact(to, Cmid)
+                               cl.sendContact(to, Dmid)
+                               cl.sendContact(to, Emid)
+                               cl.sendContact(to, Zmid)
+                               cl.sendContact(to, Amid)
+                               cl.sendContact(to, Bmid)
+                               cl.sendContact(to, Cmid)
+                               cl.sendContact(to, Dmid)
+                               cl.sendContact(to, Emid)
+                               cl.sendContact(to, Zmid)
+                               cl.sendContact(to, Amid)
+                               cl.sendContact(to, Bmid)
+                               cl.sendContact(to, Cmid)
+                               cl.sendContact(to, Dmid)
+                               cl.sendContact(to, Emid)
+                               cl.sendContact(to, Zmid)
+                               cl.sendMessage(to, None, contentMetadata={"STKID":"56021040","STKPKGID":"3865357","STKVER":"1"}, contentType=7)
+                               cl.sendMessage(to, None, contentMetadata={"STKID":"56021040","STKPKGID":"3865357","STKVER":"1"}, contentType=7)
 
-                        elif " in msg.text):
+                        elif ("K " in msg.text):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                key = eval(msg.contentMetadata["MENTION"])
@@ -5589,13 +5735,13 @@ def bot(op):
                                 wait["arespon"] = False
                                 sendTextTemplate(msg.to,"🔹ʀᴇsᴘᴏɴᴘᴍ ᴅɪ ᴍᴀᴛɪᴋᴀɴ🔹")          
 
-                        elif cmd == "autojoin on" or text.lower() == 'join on':
+                        elif cmd == "autojoin on" or text.lower() == 'autojoin on':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoJoin"] = True
                                 sendTextTemplate(msg.to,"🔹ᴀᴜᴛᴏ ᴊᴏɪɴ ᴅɪ ᴀᴋᴛɪғᴋᴀɴ🔹")
 
-                        elif cmd == "autojoin off" or text.lower() == 'join off':
+                        elif cmd == "autojoin off" or text.lower() == 'autojoin off':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoJoin"] = False
@@ -5625,49 +5771,49 @@ def bot(op):
                                 wait["autoLeave"] = False
                                 sendTextTemplate(msg.to,"🔹ᴀᴜᴛᴏʟᴇᴀᴠᴇ ᴅɪ ɴᴏɴᴀᴋᴛɪғᴋᴀɴ🔹")
 
-                        elif cmd == "autoadd on" or text.lower() == 'add on':
+                        elif cmd == "autoadd on" or text.lower() == 'autoadd on':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoAdd"] = True
                                 sendTextTemplate(msg.to,"🔹ᴀᴜᴛᴏᴀᴅᴅ ᴅɪ ᴀᴋᴛɪғᴋᴀɴ🔹")
 
-                        elif cmd == "autoadd off" or text.lower() == 'add off':
+                        elif cmd == "autoadd off" or text.lower() == 'autoadd off':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoAdd"] = False
                                 sendTextTemplate(msg.to,"🔹ᴀᴜᴛᴏᴀᴅᴅ ᴅɪ ɴᴏɴᴀᴋᴛɪғᴋᴀɴ🔹")
                                 
-                        elif cmd == "left on" or text.lower() == 'เปิดไลค์':
+                        elif cmd == "left on" or text.lower() == 'left on':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["left"] = True
                                 sendTextTemplate(msg.to,"🔹ʟᴇғᴛ ᴅɪ ᴀᴋᴛɪғᴋᴀɴ🔹")
 
-                        elif cmd == "left off" or text.lower() == 'ปิดไลค์':
+                        elif cmd == "left off" or text.lower() == 'left off':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["left"] = False
                                 sendTextTemplate(msg.to,"🔹ʟᴇғᴛ ᴅɪ ɴᴏɴᴀᴋᴛɪғᴋᴀɴ🔹")
                                 
-                        elif cmd == "autoblock on" or text.lower() == 'เปิดบล็อค':
+                        elif cmd == "autoblock on" or text.lower() == 'autoblock on':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoBlock"] = True
                                 sendTextTemplate(msg.to,"🔹ᴀᴜᴛᴏʙʟᴏᴄᴋ ᴅɪ ᴀᴋᴛɪғᴋᴀɴ🔹")
                                 
-                        elif cmd == "autoblock off" or text.lower() == 'ปิดบล็อค':
+                        elif cmd == "autoblock off" or text.lower() == 'autoblock off':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoBlock"] = True
                                 sendTextTemplate(msg.to,"🔹ᴀᴜᴛᴏʙʟᴏᴄᴋ ᴅɪ ɴᴏɴᴀᴋᴛɪғᴋᴀɴ🔹")          
 
-                        elif cmd == "jointicket on" or text.lower() == 'เปิดมุดลิ้ง':
+                        elif cmd == "jointicket on" or text.lower() == 'jointicket on':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoJoinTicket"] = True
                                 sendTextTemplate(msg.to,"🔹ᴊᴏɪɴᴛɪᴄᴋᴇᴛ ᴅɪ ᴀᴋᴛɪғᴋᴀɴ🔹")
 
-                        elif cmd == "jointicket off" or text.lower() == 'ปิดมุดลิ้ง':
+                        elif cmd == "jointicket off" or text.lower() == 'jointicket off':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoJoinTicket"] = False
@@ -5786,7 +5932,7 @@ def bot(op):
                                     ma += str(a) + ". " +cl.getContact(m_id).displayName + "\n"
                                 sendTextTemplate(msg.to,"🔹ᴛᴀʟᴋʙᴀɴ ᴜsᴇʀ🔹\n\n"+ma+"\n🔹ᴊᴜᴍʟᴀʜ「%s」ᴛᴀʟᴋʙᴀɴ ᴜsᴇʀ🔹" %(str(len(wait["Talkblacklist"]))))
 
-                        elif cmd == "tersangka" or text.lower() == 'bc':
+                        elif cmd == "tersangka" or text.lower() == 'blc':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                               if wait["blacklist"] == {}:
@@ -5797,7 +5943,7 @@ def bot(op):
                                         ma = cl.getContact(i)
                                         cl.sendMessage(msg.to, None, contentMetadata={'mid': i}, contentType=13)
 
-                        elif cmd == "clearban" or text.lower() == 'cb':
+                        elif cmd == "clearban" or text.lower() == 'clearban':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                               wait["blacklist"] = {}
@@ -5886,6 +6032,15 @@ def bot(op):
 
                         elif cmd == "cek":
                             if msg._from in admin or msg._from in owner:
+                               try:cl.inviteIntoGroup(to, [mid]);has = "OK"
+                               except:has = "NOT"
+                               try:cl.kickoutFromGroup(to, [mid]);has1 = "OK"
+                               except:has1 = "NOT"
+                               if has == "OK":sil = "⭕"
+                               else:sil = "⛔"
+                               if has1 == "OK":sil1 = "⭕"
+                               else:sil1 = "⛔"
+                               cl.sendMessage(to, "sᴛᴀᴛᴜs:\n\nᴋɪᴄᴋ : {} \nɪɴᴠɪᴛᴇ : {}".format(sil1,sil))
                                try:ki.inviteIntoGroup(to, [Amid]);has = "OK"
                                except:has = "NOT"
                                try:ki.kickoutFromGroup(to, [Amid]);has1 = "OK"
@@ -5955,7 +6110,7 @@ def bot(op):
                                  for ticket_id in n_links:
                                      group = cl.findGroupByTicket(ticket_id)
                                      cl.acceptGroupInvitationByTicket(group.id,ticket_id)
-                                     cl.sendMessage(msg.to, "สวัสดีครับมาใหม่นะ : %s" % str(group.name))
+                                     cl.sendMessage(msg.to, "Masuk : %s" % str(group.name))
 
     except Exception as error:
         print (error)
