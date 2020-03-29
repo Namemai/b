@@ -3401,8 +3401,7 @@ def bot(op):
                             except Exception as error:
                                 sendTextTemplate(to, "error\n" + str(error))
                                 logError(error)
- 
-                        by,maiset":
+
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
