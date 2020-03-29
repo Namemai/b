@@ -4479,6 +4479,7 @@ def bot(op):
                                     ki.acceptGroupInvitation(msg.to)
                                     ko.acceptGroupInvitation(msg.to)
                                     jk.acceptGroupInvitation(msg.to)
+                                    sw.acceptGroupInvitation(msg.to)
                                 except:
                                     pass
                                     
@@ -4502,6 +4503,7 @@ def bot(op):
                                 kc.leaveGroup(msg.to)
                                 ko.leaveGroup(msg.to)
                                 jk.leaveGroup(msg.to)
+                                sw.leaveGroup(msg.to)
                                 
                         elif cmd == "byeme":
                           if wait["selfbot"] == True:
@@ -4597,6 +4599,7 @@ def bot(op):
                                 kc.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 ko.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 jk.acceptGroupInvitationByTicket(msg.to,Ticket)
+                                sw.acceptGroupInvitationByTicket(msg.to,Ticket)
                                 G = cl.getGroup(msg.to)
                                 G.preventedJoinByTicket = True
                                 cl.updateGroup(G)
