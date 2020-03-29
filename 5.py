@@ -4740,7 +4740,7 @@ def bot(op):
                                 get_contact_time = time.time() - get_contact_time_start
                                 sendTextTemplate(msg.to, " 🔹ᴋᴇᴄᴇᴘᴀᴛᴀɴ ʀᴇsᴘᴏɴ🔹\n\n🔹ɢᴇᴛ ᴘʀᴏғɪʟᴇ\n🔹   %.10f\n🔹ɢᴇᴛ ᴄᴏɴᴛᴀᴄᴛ\n🔹   %.10f\n🔹ɢᴇᴛ ɢʀᴏᴜᴘ\n🔹   %.10f" % (get_profile_time/3,get_contact_time/3,get_group_time/3))
 
-                        elif cmd == "/speed" or cmd == "sp:
+                        elif cmd == "/speed" or cmd == "sp":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                start = time.time()
