@@ -2952,7 +2952,7 @@ def bot(op):
         "aspectMode": "cover",
         "url": "https://media0.giphy.com/media/xVxio2tNLAM5q/200w.webp?cid=19f5b51a5c44951d4b47664273e6c074",
         "action": {
-          "uri": "http://line.me/ti/p/~mai06555mai",
+          "uri": "http://line.me/ti/p/~4rman3",
           "type": "uri"
         },
         "type": "image",
@@ -2973,7 +2973,7 @@ def bot(op):
       "body": {
         "contents": [
           {
-            "text": "by,mai",
+            "text": "Cannibal Killer Template",
             "color": "#00FFFF",
             "wrap": True,
             "weight": "bold",
@@ -3141,7 +3141,7 @@ def bot(op):
             "color": "#000000",
             "action": {
               "type": "uri",
-              "uri": "http://line.me/ti/p/~mai06555mai"
+              "uri": "http://line.me/ti/p/~4rman3"
             },
             "align": "center"            
           }
@@ -3154,14 +3154,14 @@ def bot(op):
         "contents": [
           {
             "type": "text",
-            "text": "ᴋᴇᴘᴏɪɴ sᴇᴋᴀʀᴀɴɢ\nhttp://line.me/ti/p/~mai06555mai",
+            "text": "ᴋᴇᴘᴏɪɴ sᴇᴋᴀʀᴀɴɢ\nhttp://line.me/ti/p/~4rman3",
             "size": "xl",
             "wrap": True,
             "weight": "bold",
             "color": "#000000",
             "action": {
               "type": "uri",
-              "uri": "http://line.me/ti/p/~mai06555mai"
+              "uri": "http://line.me/ti/p/~4rman3"
             },
             "align": "center"                            
           }
@@ -3179,7 +3179,7 @@ def bot(op):
                                 status = cl.getContact(sender)                               	
                                 data = {
                                         "type": "flex",
-                                        "altText": "by,mai",
+                                        "altText": "Cannibal Killer",
                                         "contents": {
 "type": "bubble",
   "body": {
@@ -3269,7 +3269,7 @@ def bot(op):
         "color": "#E5E4E2",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~mai06555mai"
+          "uri": "http://line.me/ti/p/~4rman3"
         },
         "align": "center"
       }
@@ -3278,7 +3278,131 @@ def bot(op):
 }
 }
                                 cl.postTemplate(to, data)
-
+                            
+                        elif cmd.startswith("joox"):
+                            try:
+                                proses = text.split(" ")
+                                urutan = text.replace(proses[0] + " ","")
+                                r = requests.get("http://api.zicor.ooo/joox.php?song={}".format(str(urllib.parse.quote(urutan))))
+                                data = r.text
+                                data = json.loads(data)
+                                b = data
+                                c = str(b["title"])
+                                d = str(b["singer"])
+                                e = str(b["url"])
+                                g = str(b["image"])
+                                hasil = "ᴘᴇɴʏᴀɴʏɪ: "+str(d)
+                                hasil += "\nᴊᴜᴅᴜʟ : "+str(c)
+                                data = {
+                                        "type": "flex",
+                                        "altText": "ᴍᴜsɪᴋ",
+                                        "contents": {
+  "styles": {
+    "body": {
+      "backgroundColor": "#000000"
+    },
+    "footer": {
+      "backgroundColor": "#9932CC"
+    }
+  },
+  "type": "bubble",
+  "body": {
+    "contents": [
+      {
+        "contents": [
+          {
+            "url": g,
+            "type": "image"
+          },
+          {
+            "type": "separator",
+            "color": "#FF0000"
+          },
+          {
+            "text": "Cannibal Killer\n\nᴍᴘ³",
+            "size": "sm",
+            "color": "#FF0000",
+            "wrap": True,
+            "weight": "bold",
+            "type": "text"
+          }
+        ],
+        "type": "box",
+        "spacing": "md",
+        "layout": "horizontal"
+      },
+      {
+        "type": "separator",
+        "color": "#800080"
+      },
+      {
+        "contents": [
+          {
+            "contents": [
+              {
+                "text": hasil,
+                "size": "xs",
+                "margin": "none",
+                "color": "#FF6347",
+                "wrap": True,
+                "weight": "regular",
+                "type": "text"
+              }
+            ],
+            "type": "box",
+            "layout": "baseline"
+          }
+        ],
+        "type": "box",
+        "layout": "vertical"
+      }
+    ],
+    "type": "box",
+    "spacing": "md",
+    "layout": "vertical"
+  },
+  "footer": {
+    "contents": [
+      {
+        "contents": [
+          {
+            "contents": [
+              {
+                "text": "ᴘʟᴀʏ ᴅɪʙᴀᴡᴀʜ",
+                "size": "xxl",
+                "weight": "bold",
+                "action": {
+                  "uri": e,
+                  "type": "uri",
+                  "label": "Audio"
+                },
+                "margin": "xl",
+                "align": "start",
+                "color": "#FFD700",
+                "weight": "bold",
+                "type": "text"
+              }
+            ],
+            "type": "box",
+            "layout": "baseline"
+          }
+        ],
+        "type": "box",
+        "layout": "horizontal"
+      }
+    ],
+    "type": "box",
+    "layout": "vertical"
+  }
+}
+}
+                                cl.postTemplate(to, data)
+                                cl.sendAudioWithURL(to,e)
+                            except Exception as error:
+                                sendTextTemplate(to, "error\n" + str(error))
+                                logError(error)
+ 
+                        elif cmd == "set":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
@@ -3314,7 +3438,7 @@ def bot(op):
                                 else: md+="├🔹ᴘʀᴏᴛᴇᴄᴛᴋɪᴄᴋ ᴏғғ\n"
                                 if msg.to in protectcancel: md+="├🔹ᴘʀᴏᴛᴇᴄᴛᴄᴀɴᴄᴇʟ ᴏɴ\n"
                                 else: md+="├🔹ᴘʀᴏᴛᴇᴄᴛᴄᴀɴᴄᴇʟ ᴏғғ\n╰──────────────╯\n"
-                                sendTextTemplate(msg.to, md+"\nᴛᴀɴɢɢᴀʟ : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nᴊᴀᴍ [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]")
+                                sendTextTemplate(msg.to, md+"\nᴛᴀɴɢɢᴀʟ : "+ datetime.strftime(timeNow,'%Y-%m-%d')+"\nᴊᴀᴍ [ "+ datetime.strftime(timeNow,'%H:%M:%S')+" ]"
 
                         elif cmd == "owner" or text.lower() == 'creator':
                             if msg._from in admin:
