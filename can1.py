@@ -377,7 +377,7 @@ def sendTextTemplate(to, text):
         ],
         "margin": "xs",
         "spacing": "md",
-        "backgroundColor": "#fmai06555mai
+        "backgroundColor": "#ffffff"
       },
       {
         "type": "box",
