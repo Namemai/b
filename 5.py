@@ -8,13 +8,13 @@ import html5lib
 import requests,json,urllib3
 from random import randint
 from bs4 import BeautifulSoup
-#from gtts import gTTS
+from gtts import gTTS
 from googletrans import Translator
 import youtube_dl
 from time import sleep
 from zalgo_text import zalgo
 from threading import Thread,Event
-#import requests,uvloop
+import requests,uvloop
 import wikipedia as wiki
 requests.packages.urllib3.disable_warnings()
 #loop = uvloop.new_event_loop()
@@ -23,31 +23,31 @@ botStart = time.time()
 msg_dict = {}
 msg_dict1 = {}
 #==============[ token 1 ]==============#
-cl = LINE("@gmail.com","password")
+cl = LINE("sud55718@zzrgg.com","mai06555mai")
 cl.log("Auth Token : " + str(cl.authToken))
 cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
-ki = LINE("@gmail.com","password")
+ki = LINE("mnn84815@bcaoo.com","mai06555mai")
 ki.log("Auth Token : " + str(ki.authToken))
 ki.log("Timeline Token : " + str(ki.tl.channelAccessToken))
 
-kk = LINE("@gmail.com","password")
+kk = LINE("uwc45303@zzrgg.com","mai06555mai")
 kk.log("Auth Token : " + str(kk.authToken))
 kk.log("Timeline Token : " + str(kk.tl.channelAccessToken))
 
-kc = LINE("@gmail.com","password")
+kc = LINE("ckz89175@bcaoo.com","mai06555mai")
 kc.log("Auth Token : " + str(kc.authToken))
 kc.log("Timeline Token : " + str(kc.tl.channelAccessToken))
 
-ko = LINE("@gmail.com","password")
+ko = LINE("pzx60129@bcaoo.com","mai06555mai")
 ko.log("Auth Token : " + str(ko.authToken))
 ko.log("Timeline Token : " + str(ko.tl.channelAccessToken))
 
-jk = LINE("@gmail.com","password")
+jk = LINE("faz26918@zzrgg.com","mai06555mai")
 jk.log("Auth Token : " + str(jk.authToken))
 jk.log("Timeline Token : " + str(jk.tl.channelAccessToken))
 
-sw = LINE("@gmail.com","password")
+sw = LINE("ovj15178@zzrgg.com","mai06555mai")
 sw.log("Auth Token : " + str(sw.authToken))
 sw.log("Timeline Token : " + str(sw.tl.channelAccessToken))
 #==============[●●●●●●]==============#
