@@ -64,10 +64,10 @@ Dmid = ko.getProfile().mid
 Emid = jk.getProfile().mid
 Zmid = sw.getProfile().mid
 #===========================================================================================
-KAC = [cl,ki,kk,kc,ko,jk]
-ABC = [cl,ki,kk,kc,ko,jk]
+KAC = [ki,kk,kc,ko,jk,sw]
+ABC = [ki,kk,kc,ko,jk,sw]
 GHOST = [sw]
-Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid]
+Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Zmid]
 creator = ["ucc10b6f6bc11284e0aa9b2a2fb16b70c"]
 owner = ["ucc10b6f6bc11284e0aa9b2a2fb16b70c"]
 admin = ["ucc10b6f6bc11284e0aa9b2a2fb16b70c"]
@@ -92,7 +92,7 @@ settings = {
     "group":{},
     "groupPicture":False,
     "changePicture":False,
-    "comment":"╭──────────────────╮\n├🔹ɴᴜᴍᴘᴀɴɢ ᴘʀᴏᴍᴏ ʏᴀ ᴋᴀᴋᴀᴋ  │\n╰──────────────────╯\n╭──────────────────\n├🔹ʀᴇᴀᴅʏ ʙᴏᴛ ᴘʀᴏᴛᴇᴄᴛ\n├🔹ʀᴏᴏᴍ sᴍᴜʟᴇ / ᴇᴠᴇɴᴛ \n├🔹ʀᴇᴀᴅʏ sʙ ᴏɴʟʏ \n├🔹sʙ ᴏɴʟʏ + ᴀᴊs \n├🔹sʙ + ᴀssɪsᴛ + ᴀᴊs \n├🔹ʟᴏɢɪɴ ᴊs / ʙʏᴘᴀs\n├🔹ɴᴇᴡ ᴘᴇᴍʙᴜᴀᴛᴀɴ sᴄ ʙᴏᴛ \n├🔹ɴᴇᴡ ʙᴇʟᴀᴊᴀʀ ʙᴏᴛ \n├🔹ᴘᴇᴍᴀsᴀɴɢ sʙ ᴋᴇ ᴛᴇᴍᴘʟᴀᴛᴇ\n├🔹ʀᴇᴀᴅʏ ᴀᴋᴜɴ ᴄᴏɪɴ\n├🔹ʀᴇᴀᴅʏ ᴄᴏɪɴ ɢɪғᴛ \n╰────────────────── \n╭─────────────────\n├ line.me/ti/p/~4rman3\n╰─────────────────",
+    "comment":"╭──────────────────╮\n├🔹ɴᴜᴍᴘᴀɴɢ ᴘʀᴏᴍᴏ ʏᴀ ᴋᴀᴋᴀᴋ  │\n╰──────────────────╯\n╭──────────────────\n├🔹ʀᴇᴀᴅʏ ʙᴏᴛ ᴘʀᴏᴛᴇᴄᴛ\n├🔹ʀᴏᴏᴍ sᴍᴜʟᴇ / ᴇᴠᴇɴᴛ \n├🔹ʀᴇᴀᴅʏ sʙ ᴏɴʟʏ \n├🔹sʙ ᴏɴʟʏ + ᴀᴊs \n├🔹sʙ + ᴀssɪsᴛ + ᴀᴊs \n├🔹ʟᴏɢɪɴ ᴊs / ʙʏᴘᴀs\n├🔹ɴᴇᴡ ᴘᴇᴍʙᴜᴀᴛᴀɴ sᴄ ʙᴏᴛ \n├🔹ɴᴇᴡ ʙᴇʟᴀᴊᴀʀ ʙᴏᴛ \n├🔹ᴘᴇᴍᴀsᴀɴɢ sʙ ᴋᴇ ᴛᴇᴍᴘʟᴀᴛᴇ\n├🔹ʀᴇᴀᴅʏ ᴀᴋᴜɴ ᴄᴏɪɴ\n├🔹ʀᴇᴀᴅʏ ᴄᴏɪɴ ɢɪғᴛ \n╰────────────────── \n╭─────────────────\n├ line.me/ti/p/~mai06555mai\n╰─────────────────",
     "autoJoinTicket":False,
     "userAgent": [
         "Mozilla/5.0 (X11; U; Linux i586; de; rv:5.0) Gecko/20100101 Firefox/5.0",
@@ -153,10 +153,10 @@ wait = {
     'autoBlock':False,
     "unsend":True,
     "arespon":True,
-    "mention":"╭──────────────────╮\n├🔹ɴᴜᴍᴘᴀɴɢ ᴘʀᴏᴍᴏ ʏᴀ ᴋᴀᴋᴀᴋ  │\n╰──────────────────╯\n╭──────────────────\n├🔹ʀᴇᴀᴅʏ ʙᴏᴛ ᴘʀᴏᴛᴇᴄᴛ\n├🔹ʀᴏᴏᴍ sᴍᴜʟᴇ / ᴇᴠᴇɴᴛ \n├🔹ʀᴇᴀᴅʏ sʙ ᴏɴʟʏ \n├🔹sʙ ᴏɴʟʏ + ᴀᴊs \n├🔹sʙ + ᴀssɪsᴛ + ᴀᴊs \n├🔹ʟᴏɢɪɴ ᴊs / ʙʏᴘᴀs / ɴɪɴᴊᴀ\n├🔹ɴᴇᴡ ᴘᴇᴍʙᴜᴀᴛᴀɴ sᴄ ʙᴏᴛ \n├🔹ɴᴇᴡ ʙᴇʟᴀᴊᴀʀ ʙᴏᴛ \n├🔹ᴘᴇᴍᴀsᴀɴɢ sʙ ᴋᴇ ᴛᴇᴍᴘʟᴀᴛᴇ\n├🔹ʀᴇᴀᴅʏ ᴀᴋᴜɴ ᴄᴏɪɴ\n├🔹ʀᴇᴀᴅʏ ᴄᴏɪɴ ɢɪғᴛ \n╰────────────────── \n╭─────────────────\n├ line.me/ti/p/~4rman3\n╰─────────────────",
+    "mention":"╭──────────────────╮\n├🔹ɴᴜᴍᴘᴀɴɢ ᴘʀᴏᴍᴏ ʏᴀ ᴋᴀᴋᴀᴋ  │\n╰──────────────────╯\n╭──────────────────\n├🔹ʀᴇᴀᴅʏ ʙᴏᴛ ᴘʀᴏᴛᴇᴄᴛ\n├🔹ʀᴏᴏᴍ sᴍᴜʟᴇ / ᴇᴠᴇɴᴛ \n├🔹ʀᴇᴀᴅʏ sʙ ᴏɴʟʏ \n├🔹sʙ ᴏɴʟʏ + ᴀᴊs \n├🔹sʙ + ᴀssɪsᴛ + ᴀᴊs \n├🔹ʟᴏɢɪɴ ᴊs / ʙʏᴘᴀs / ɴɪɴᴊᴀ\n├🔹ɴᴇᴡ ᴘᴇᴍʙᴜᴀᴛᴀɴ sᴄ ʙᴏᴛ \n├🔹ɴᴇᴡ ʙᴇʟᴀᴊᴀʀ ʙᴏᴛ \n├🔹ᴘᴇᴍᴀsᴀɴɢ sʙ ᴋᴇ ᴛᴇᴍᴘʟᴀᴛᴇ\n├🔹ʀᴇᴀᴅʏ ᴀᴋᴜɴ ᴄᴏɪɴ\n├🔹ʀᴇᴀᴅʏ ᴄᴏɪɴ ɢɪғᴛ \n╰────────────────── \n╭─────────────────\n├ line.me/ti/p/~mai06555mai\n╰─────────────────",
     "Respontag":"sᴇᴋᴀʟɪ ʟᴀɢɪ ᴛᴀɢ, ᴍᴀᴜ ᴀʙɪ ᴅᴇsᴀʜɪɴ",
     "welcome":"Selamat datang & semoga betah n bahagia",
-    "message":"╭──────────────────╮\n├🔹ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ sᴜᴅᴀʜ ᴀᴅᴅ  │\n╰──────────────────╯\n╭──────────────────\n├🔹ʀᴇᴀᴅʏ ʙᴏᴛ ᴘʀᴏᴛᴇᴄᴛ\n├🔹ʀᴏᴏᴍ sᴍᴜʟᴇ / ᴇᴠᴇɴᴛ \n├🔹ʀᴇᴀᴅʏ sʙ ᴏɴʟʏ \n├🔹sʙ ᴏɴʟʏ + ᴀᴊs \n├🔹sʙ + ᴀssɪsᴛ + ᴀᴊs \n├🔹ʟᴏɢɪɴ ᴊs / ʙʏᴘᴀs\n├🔹ɴᴇᴡ ᴘᴇᴍʙᴜᴀᴛᴀɴ sᴄ ʙᴏᴛ \n├🔹ɴᴇᴡ ʙᴇʟᴀᴊᴀʀ ʙᴏᴛ \n├🔹ᴘᴇᴍᴀsᴀɴɢ sʙ ᴋᴇ ᴛᴇᴍᴘʟᴀᴛᴇ\n├🔹ʀᴇᴀᴅʏ ᴀᴋᴜɴ ᴄᴏɪɴ\n├🔹ʀᴇᴀᴅʏ ᴄᴏɪɴ ɢɪғᴛ \n╰────────────────── \n╭─────────────────\n├ line.me/ti/p/~4rman3\n╰─────────────────",
+    "message":"╭──────────────────╮\n├🔹ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ sᴜᴅᴀʜ ᴀᴅᴅ  │\n╰──────────────────╯\n╭──────────────────\n├🔹ʀᴇᴀᴅʏ ʙᴏᴛ ᴘʀᴏᴛᴇᴄᴛ\n├🔹ʀᴏᴏᴍ sᴍᴜʟᴇ / ᴇᴠᴇɴᴛ \n├🔹ʀᴇᴀᴅʏ sʙ ᴏɴʟʏ \n├🔹sʙ ᴏɴʟʏ + ᴀᴊs \n├🔹sʙ + ᴀssɪsᴛ + ᴀᴊs \n├🔹ʟᴏɢɪɴ ᴊs / ʙʏᴘᴀs\n├🔹ɴᴇᴡ ᴘᴇᴍʙᴜᴀᴛᴀɴ sᴄ ʙᴏᴛ \n├🔹ɴᴇᴡ ʙᴇʟᴀᴊᴀʀ ʙᴏᴛ \n├🔹ᴘᴇᴍᴀsᴀɴɢ sʙ ᴋᴇ ᴛᴇᴍᴘʟᴀᴛᴇ\n├🔹ʀᴇᴀᴅʏ ᴀᴋᴜɴ ᴄᴏɪɴ\n├🔹ʀᴇᴀᴅʏ ᴄᴏɪɴ ɢɪғᴛ \n╰────────────────── \n╭─────────────────\n├ line.me/ti/p/~mai06555mai\n╰─────────────────",
     }
 
 read = {
@@ -223,7 +223,7 @@ def mentionMembers(to, mid):
                 textx += "├ "
             else:
                 try:
-                    textx += "╰──[Cannibal Killer]──".format(str(cl.getGroup(to).name))
+                    textx += "╰──[mai]──".format(str(cl.getGroup(to).name))
                 except:
                     pass
         cl.sendMessage(to, textx, {'MENTION': str('{"MENTIONEES":' + json.dumps(arr) + '}')}, 0)
@@ -318,7 +318,7 @@ def executeCmd(msg, text, txt, cmd, msg_id, receiver, sender, to, setKey):
         cl.sendMessage(to, 'ᴀᴘᴀʟᴜ !')        
 
 def logError(text):
-    cl.log("[ Cannibal Killer ] {}".format(str(text)))
+    cl.log("[ mai ] {}".format(str(text)))
     tz = pytz.timezone("Asia/Makassar")
     timeNow = datetime.now(tz=tz)
     timeHours = datetime.strftime(timeNow,"(%H:%M)")
@@ -349,7 +349,7 @@ def sendTemplates(to, data):
 def sendTextTemplate(to, text):
     data = {
             "type": "flex",
-            "altText": "Cannibal Killer",
+            "altText": "mai",
             "contents": {
   "type": "bubble",
   "size": "nano",
@@ -380,7 +380,7 @@ def sendTextTemplate(to, text):
         "contents": [
           {
             "type": "text",
-            "text": "Cannibal Killer",
+            "text": "mai",
             "align": "center",
             "size": "xs"
           }
@@ -466,7 +466,7 @@ def sendTextTemplate8(to, text):
         "color": "#7CFC00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~4rman3"
+          "uri": "http://line.me/ti/p/~mai06555mai"
         },
         "align": "center"
       },
@@ -495,7 +495,7 @@ def sendTextTemplate8(to, text):
     "contents": [
       {
         "type": "text",
-        "text": "Cannibal Killer",
+        "text": "mai",
         "size": "xl",
         "wrap": True,
         "weight": "bold",
@@ -569,7 +569,7 @@ def sendTextTemplate7(to, text):
         "color": "#7CFC00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~4rman3"
+          "uri": "http://line.me/ti/p/~mai06555mai"
         },
         "align": "center"
       },
@@ -586,7 +586,7 @@ def sendTextTemplate7(to, text):
         "color": "#FFD700",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~4rman3"
+          "uri": "http://line.me/ti/p/~mai06555mai"
         },
         "align": "center"
       }
@@ -598,7 +598,7 @@ def sendTextTemplate7(to, text):
     "contents": [
       {
         "type": "text",
-        "text": "Cannibal Killer",
+        "text": "mai",
         "size": "xl",
         "wrap": True,
         "weight": "bold",
@@ -672,7 +672,7 @@ def sendTextTemplate6(to, text):
         "color": "#7CFC00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~4rman3"
+          "uri": "http://line.me/ti/p/~mai06555mai"
         },
         "align": "center"
       },
@@ -689,7 +689,7 @@ def sendTextTemplate6(to, text):
         "color": "#FFD700",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~4rman3"
+          "uri": "http://line.me/ti/p/~mai06555mai"
         },
         "align": "center"
       }
@@ -775,7 +775,7 @@ def sendTextTemplate4(to, text):
         "color": "#7CFC00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~4rman3"
+          "uri": "http://line.me/ti/p/~mai06555mai"
         },
         "align": "center"
       },
@@ -792,7 +792,7 @@ def sendTextTemplate4(to, text):
         "color": "#FFD700",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~4rman3"
+          "uri": "http://line.me/ti/p/~mai06555mai"
         },
         "align": "center"
       }
@@ -804,7 +804,7 @@ def sendTextTemplate4(to, text):
     "contents": [
       {
         "type": "text",
-        "text": "Cannibal Killer",
+        "text": "mai",
         "size": "xl",
         "wrap": True,
         "weight": "bold",
@@ -820,7 +820,7 @@ def sendTextTemplate4(to, text):
 def sendTextTemplate5(to, text):
     data = {
             "type": "flex",
-            "altText": "Cannibal Killer",
+            "altText": "mai",
             "contents": {
   "type": "bubble",
   "body": {
@@ -893,7 +893,7 @@ def sendTextTemplate5(to, text):
 def sendTextTemplate1(to, text):
     data = {
                 "type": "template",
-                "altText": "Cannibal Killer",
+                "altText": "mai",
                 "contents": {
                     "type": "bubble",
                     "body": {
@@ -918,7 +918,7 @@ def sendTextTemplate1(to, text):
 def sendTextTemplate2(to, text):
     data = {
             "type": "flex",
-            "altText": "Cannibal Killer",
+            "altText": "mai",
             "contents": {
   "styles": {
     "body": {
@@ -961,7 +961,7 @@ def sendTextTemplate2(to, text):
 def sendTextTemplate3(to, text):
     data = {
             "type": "flex",
-            "altText": "Cannibal Killer",
+            "altText": "mai",
             "contents": {
   "type": "bubble",
   "body": {
@@ -1018,7 +1018,7 @@ def sendTextTemplate3(to, text):
         "color": "#000000",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~4rman3"
+          "uri": "http://line.me/ti/p/~mai06555mai"
         },
         "align": "center"
       }
@@ -1030,7 +1030,7 @@ def sendTextTemplate3(to, text):
     "contents": [
       {
         "type": "text",
-        "text": "CannibalBot",
+        "text": "mai",
         "size": "md",
         "wrap": True,
         "weight": "bold",
@@ -1078,7 +1078,7 @@ def sendStickerTemplate(to, text):
                                   "size": "full", 
                                   "action": {
                                       "type": "uri",
-                                      "uri": "http://line.me/ti/p/~4rman3"
+                                      "uri": "http://line.me/ti/p/~mai06555mai"
            }                                                
  }
 ]
@@ -1160,7 +1160,7 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "╭───────────────────╮" + "\n" + \
-                  "├  🔹ᴄᴏᴍᴍᴇɴᴅ Cannibal🔹 │" + "\n" + \
+                  "├  🔹MAI🔹 │" + "\n" + \
                   "╰───────────────────╯" + "\n" + \
                   "╭────────────╮" + "\n" + \
                   "├🔹" + key + "ᴍᴇ\n" + \
@@ -1203,7 +1203,7 @@ def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage1 = "╭───────────────────╮" + "\n" + \
-                  "├  🔹ᴄᴏᴍᴍᴇɴᴅ Cannibal🔹 │" + "\n" + \
+                  "├  🔹MAI🔹 │" + "\n" + \
                   "╰───────────────────╯" + "\n" + \
                   "╭────────────╮" + "\n" + \
                   "├🔹" + key + "ʙʟᴄ\n" + \
@@ -1219,7 +1219,7 @@ def helpbot():
                   "├🔹" + key + "ᴛᴀʟᴋʙᴀɴʟɪsᴛ\n" + \
                   "├🔹" + key + "ᴄʟᴇᴀʀʙᴀɴ\n" + \
                   "├🔹" + key + "ʀᴇғʀᴇsʜ\n" + \
-                  "├🔹ᴄᴏᴍᴍᴇɴᴅ Cannibal🔹\n" + \
+                  "├🔹MAI🔹\n" + \
                   "├🔹" + key + "ᴄᴇᴋ sɪᴅᴇʀ\n" + \
                   "├🔹" + key + "ᴄᴇᴋ sᴘᴀᴍ\n" + \
                   "├🔹" + key + "ᴄᴇᴋ ᴘᴇsᴀɴ \n" + \
@@ -1234,7 +1234,7 @@ def helpbot():
                   "├🔹" + key + "ɢɪғᴛ:「ᴍɪᴅ 」「ᴊᴜᴍʟᴀʜ」\n" + \
                   "├🔹" + key + "sᴘᴀᴍ:「ᴍɪᴅ」「ᴊᴜᴍʟᴀʜ」\n" + \
                   "╰──────────────────╯" + "\n" + \
-                  "╭─🔹ᴄʀᴇᴀᴛᴏʀ ʙʏᴇ🔹─╮\n            Cannibal\n╰─🔹Cannibak Killer🔹─╯"
+                  "╭─🔹ᴄʀᴇᴀᴛᴏʀ ʙʏᴇ🔹─╮\n            MAI\n╰─🔹MAI🔹─╯"
                   
     return helpMessage1
 
@@ -1341,18 +1341,46 @@ def bot(op):
                                                     cl.sendMessage(op.param1, None, contentMetadata={'mid': op.param2}, contentType=13)
                                         except:
                                             pass
+
+        if op.type == 13:
+            if op.param2 in wait["blacklist"]:
+                if op.param2 in Bots:
+                    pass
+                if op.param2 in owner:
+                    pass
+                if op.param2 in admin:
+                    pass
+                if op.param2 in staff:
+                    pass
+                else:
+                    wait["blacklist"][op.param2] = True                    
+                    try:
+                        ki.cancelGroupInvitation(op.param1,[op.param2])
+                    except:
+                        try:
+                            kk.cancelGroupInvitation(op.param1,[op.param2])
+                        except:
+                            try:
+                                kc.cancelGroupInvitation(op.param1,[op.param2])
+                            except:
+                                try:
+                                    ko.cancelGroupInvitation(op.param1,[op.param2])
+                                except:
+                                    try:
+                                        jk.cancleGroupInvitation(op.param1,[op.param2])
+                                    except:
+                                        pass
+                                        
         if op.type == 13:
             if mid in op.param3:
                 if wait["autoLeave"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         cl.acceptGroupInvitation(op.param1)
                         ginfo = cl.getGroup(op.param1)
-                        sendTextTemplate(op.param1,"ᴘᴀᴘᴀʏ ᴄᴀʏᴀɴᴋ...\n ɢʀᴏᴜᴘ " +str(ginfo.name))
                         cl.leaveGroup(op.param1)
                     else:
                         cl.acceptGroupInvitation(op.param1)
                         ginfo = cl.getGroup(op.param1)
-                        sendTextTemplate(op.param1,"ᴛᴀɴᴋs ᴜᴅᴀʜ ᴊᴇᴘɪᴛ... " + str(ginfo.name))
                   
         if op.type == 13:
             if mid in op.param3:
@@ -1360,11 +1388,9 @@ def bot(op):
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
                         cl.acceptGroupInvitation(op.param1)
                         ginfo = cl.getGroup(op.param1)
-                        sendTextTemplate(op.param1,"ʜᴀʏ sᴇᴍᴜᴀ\nᴀʙɪ ᴅᴀᴛᴀɴɢ\nᴅɪ ɢʀᴏᴜᴘ " +str(ginfo.name))
                     else:
                         cl.acceptGroupInvitation(op.param1)
                         ginfo = cl.getGroup(op.param1)
-                        sendTextTemplate(op.param1,"ʜᴀʏ sᴇᴍᴜᴀ\nᴀʙɪ ᴅᴀᴛᴀɴɢ\nᴅɪ ɢʀᴏᴜᴘ " + str(ginfo.name))
             if Amid in op.param3:
                 if wait["autoJoin"] == True:
                     if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
@@ -1468,7 +1494,7 @@ def bot(op):
                 contact = cl.getContact(op.param2)
                 data = {
                         "type": "flex",
-                        "altText": "Cannibal Killer",
+                        "altText": "mai",
                         "contents": {
   "type": "bubble",
   "size": "nano",
@@ -1551,7 +1577,7 @@ def bot(op):
                 contact = cl.getContact(op.param2)
                 data = {
                         "type": "flex",
-                        "altText": "Cannibal Killer",
+                        "altText": "mai",
                         "contents": {
   "type": "bubble",
   "size": "nano",
@@ -1630,7 +1656,7 @@ def bot(op):
             print ("[ 5 ] ɴᴏᴛɪғɪᴇᴅ ᴀᴜᴛᴏʙʟᴏᴄᴋ ᴄᴏɴᴛᴀᴄᴛ")
             if wait["autoBlock"] == True:
                 cl.blockContact(op.param1)
-                cl.sendMessage(op.param1, wait["ᴍᴀᴀғ ᴀɪᴍ ᴀᴜᴛᴏʙʟᴏᴄᴋ ᴀɪᴍ ᴀᴋᴛɪғ"])
+                cl.sendMessage(op.param1, wait["กรุนารอผมมาปลอดบล็อค"])
                 
         if op.type == 0:
             return
@@ -1788,13 +1814,13 @@ def bot(op):
                                     random.choice(KAC).inviteIntoGroup(op.param1,[Zmid])
                                 except:
                                     try:
-                                        ki.kickoutFromGroup(op.param1,[op.param2])
-                                        ki.inviteIntoGroup(op.param1,[op.param3])
+                                        ko.kickoutFromGroup(op.param1,[op.param2])
+                                        ko.inviteIntoGroup(op.param1,[op.param3])
                                         cl.acceptGroupInvitation(op.param1)
                                     except:
                                         try:
-                                            kk.kickoutFromGroup(op.param1,[op.param2])
-                                            kk.inviteIntoGroup(op.param1,[op.param3])
+                                            jk.kickoutFromGroup(op.param1,[op.param2])
+                                            jk.inviteIntoGroup(op.param1,[op.param3])
                                             cl.acceptGroupInvitation(op.param1)
                                         except:
                                             try:
@@ -1828,8 +1854,8 @@ def bot(op):
                             ki.acceptGroupInvitation(op.param1)
                         except:
                             try:
-                                jk.kickoutFromGroup(op.param1,[op.param2])
-                                jk.inviteIntoGroup(op.param1,[op.param3])
+                                ko.kickoutFromGroup(op.param1,[op.param2])
+                                ko.inviteIntoGroup(op.param1,[op.param3])
                                 ki.acceptGroupInvitation(op.param1)
                             except:
                                 try:
@@ -1856,13 +1882,13 @@ def bot(op):
                                     random.choice(ABC).inviteIntoGroup(op.param1,[Zmid])
                                 except:
                                     try:
-                                        kk.kickoutFromGroup(op.param1,[op.param2])
-                                        kk.inviteIntoGroup(op.param1,[op.param3])
+                                        jk.kickoutFromGroup(op.param1,[op.param2])
+                                        jk.inviteIntoGroup(op.param1,[op.param3])
                                         ki.acceptGroupInvitation(op.param1)
                                     except:
                                         try:
-                                            kc.kickoutFromGroup(op.param1,[op.param2])
-                                            kc.inviteIntoGroup(op.param1,[op.param3])
+                                            kk.kickoutFromGroup(op.param1,[op.param2])
+                                            kk.inviteIntoGroup(op.param1,[op.param3])
                                             ki.acceptGroupInvitation(op.param1)
                                         except:
                                             try:
@@ -1891,13 +1917,13 @@ def bot(op):
                         kk.acceptGroupInvitation(op.param1)
                     except:
                         try:
-                            jk.kickoutFromGroup(op.param1,[op.param2])
-                            jk.inviteIntoGroup(op.param1,[op.param3])
+                            ko.kickoutFromGroup(op.param1,[op.param2])
+                            ko.inviteIntoGroup(op.param1,[op.param3])
                             kk.acceptGroupInvitation(op.param1)
                         except:
                             try:
-                                ki.kickoutFromGroup(op.param1,[op.param2])
-                                ki.inviteIntoGroup(op.param1,[op.param3])
+                                jk.kickoutFromGroup(op.param1,[op.param2])
+                                jk.inviteIntoGroup(op.param1,[op.param3])
                                 kk.acceptGroupInvitation(op.param1)
                             except:
                                 try:
@@ -1954,18 +1980,18 @@ def bot(op):
                 else:
                     wait["blacklist"][op.param2] = True
                     try:
-                        jk.kickoutFromGroup(op.param1,[op.param2])
-                        jk.inviteIntoGroup(op.param1,[op.param3])
+                        ko.kickoutFromGroup(op.param1,[op.param2])
+                        ko.inviteIntoGroup(op.param1,[op.param3])
                         kc.acceptGroupInvitation(op.param1)
                     except:
                         try:
-                            ki.kickoutFromGroup(op.param1,[op.param2])
-                            ki.inviteIntoGroup(op.param1,[op.param3])
+                            jk.kickoutFromGroup(op.param1,[op.param2])
+                            jk.inviteIntoGroup(op.param1,[op.param3])
                             kc.acceptGroupInvitation(op.param1)
                         except:
                             try:
-                                kk.kickoutFromGroup(op.param1,[op.param2])
-                                kk.inviteIntoGroup(op.param1,[op.param3])
+                                ki.kickoutFromGroup(op.param1,[op.param2])
+                                ki.inviteIntoGroup(op.param1,[op.param3])
                                 kc.acceptGroupInvitation(op.param1)
                             except:
                                 try:
@@ -1992,13 +2018,13 @@ def bot(op):
                                     random.choice(ABC).inviteIntoGroup(op.param1,[Zmid])
                                 except:
                                     try:
-                                        ki.kickoutFromGroup(op.param1,[op.param2])
-                                        ki.inviteIntoGroup(op.param1,[op.param3])
+                                        kk.kickoutFromGroup(op.param1,[op.param2])
+                                        kk.inviteIntoGroup(op.param1,[op.param3])
                                         kc.acceptGroupInvitation(op.param1)
                                     except:
                                         try:
-                                            kk.kickoutFromGroup(op.param1,[op.param2])
-                                            kk.inviteIntoGroup(op.param1,[op.param3])
+                                            kc.kickoutFromGroup(op.param1,[op.param2])
+                                            kc.inviteIntoGroup(op.param1,[op.param3])
                                             kc.acceptGroupInvitation(op.param1)
                                         except:
                                             try:
@@ -2037,12 +2063,12 @@ def bot(op):
                                 ko.acceptGroupInvitation(op.param1)
                             except:
                                 try:
-                                    x = cl.getGroup(op.param1)
+                                    x = jk.getGroup(op.param1)
                                     x.preventedJoinByTicket = False
-                                    cl.updateGroup(x)
+                                    jk.updateGroup(x)
                                     invsend = 0
-                                    Ti = cl.reissueGroupTicket(op.param1)
-                                    cl.acceptGroupInvitationByTicket(op.param1,Ti)
+                                    Ti = jk.reissueGroupTicket(op.param1)
+                                    jk.acceptGroupInvitationByTicket(op.param1,Ti)
                                     sw.acceptGroupInvitationByTicket(op.param1,Ti)
                                     sw.kickoutFromGroup(op.param1,[op.param2])
                                     ki.acceptGroupInvitationByTicket(op.param1,Ti)
@@ -2060,13 +2086,13 @@ def bot(op):
                                     random.choice(ABC).inviteIntoGroup(op.param1,[Zmid])
                                 except:
                                     try:
-                                        ki.kickoutFromGroup(op.param1,[op.param2])
-                                        ki.inviteIntoGroup(op.param1,[op.param3])
+                                        kc.kickoutFromGroup(op.param1,[op.param2])
+                                        kc.inviteIntoGroup(op.param1,[op.param3])
                                         ko.acceptGroupInvitation(op.param1)
                                     except:
                                         try:
-                                            kc.kickoutFromGroup(op.param1,[op.param2])
-                                            kc.inviteIntoGroup(op.param1,[op.param3])
+                                            jk.kickoutFromGroup(op.param1,[op.param2])
+                                            jk.inviteIntoGroup(op.param1,[op.param3])
                                             ko.acceptGroupInvitation(op.param1)
                                         except:
                                             try:
@@ -2105,12 +2131,12 @@ def bot(op):
                                 jk.acceptGroupInvitation(op.param1)
                             except:
                                 try:
-                                    x = cl.getGroup(op.param1)
+                                    x = ko.getGroup(op.param1)
                                     x.preventedJoinByTicket = False
-                                    cl.updateGroup(x)
+                                    ko.updateGroup(x)
                                     invsend = 0
-                                    Ti = cl.reissueGroupTicket(op.param1)
-                                    cl.acceptGroupInvitationByTicket(op.param1,Ti)
+                                    Ti = ko.reissueGroupTicket(op.param1)
+                                    ko.acceptGroupInvitationByTicket(op.param1,Ti)
                                     sw.acceptGroupInvitationByTicket(op.param1,Ti)
                                     sw.kickoutFromGroup(op.param1,[op.param2])
                                     ki.acceptGroupInvitationByTicket(op.param1,Ti)
@@ -2128,13 +2154,13 @@ def bot(op):
                                     random.choice(ABC).inviteIntoGroup(op.param1,[Zmid])
                                 except:
                                     try:
-                                        ki.kickoutFromGroup(op.param1,[op.param2])
-                                        ki.inviteIntoGroup(op.param1,[op.param3])
+                                        kc.kickoutFromGroup(op.param1,[op.param2])
+                                        kc.inviteIntoGroup(op.param1,[op.param3])
                                         jk.acceptGroupInvitation(op.param1)
                                     except:
                                         try:
-                                            kc.kickoutFromGroup(op.param1,[op.param2])
-                                            kc.inviteIntoGroup(op.param1,[op.param3])
+                                            ko.kickoutFromGroup(op.param1,[op.param2])
+                                            ko.inviteIntoGroup(op.param1,[op.param3])
                                             jk.acceptGroupInvitation(op.param1)
                                         except:
                                             try:
@@ -2188,6 +2214,32 @@ def bot(op):
                                             random.choice(ABC).inviteIntoGroup(op.param1,[op.param3])
                                         except:
                                             pass
+        if op.type == 55:
+            if op.param2 not in Bots and op.param2 not in owner and op.param2 not in admin and op.param2 not in staff:
+                wait["blacklist"][op.param2] = True
+                try:
+                    ki.cancelGroupInvitation(op.param1,[op.param3])
+                    ki.kickoutFromGroup(op.param1,[op.param2])
+                except:
+                    try:
+                        kk.cancelGroupInvitation(op.param1,[op.param3])
+                        kk.kickoutFromGroup(op.param1,[op.param2])
+                    except:
+                        try:
+                            kc.cancelGroupInvitation(op.param1,[op.param3])
+                            kc.kickoutFromGroup(op.param1,[op.param2])
+                        except:
+                            try:
+                                ko.cancelGroupInvitation(op.param1,[op.param3])
+                                ko.kickoutFromGroup(op.param1,[op.param2])
+                            except:
+                                try:
+                                    jk.cancelGroupInvitation(op.param1,[op.param3])
+                                    jk.kickoutFromGroup(op.param1,[op.param2])
+                                except:
+                                    pass
+#======================================================================================================#
+                                        
                 return    
                 
             if admin in op.param3:
@@ -2518,7 +2570,7 @@ def bot(op):
                         if mention ['M'] in mid:
                            contact = cl.getContact(msg._from)
                            cl.sendImageWithURL(msg._from, "http://dl.profile.line-cdn.net{}".format(contact.picturePath))
-                           sendMention1(sender, "╭──────────────────╮\n├🔹ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ sᴜᴅᴀʜ ᴀᴅᴅ  │\n╰──────────────────╯\n╭──────────────────\n├🔹ʀᴇᴀᴅʏ ʙᴏᴛ ᴘʀᴏᴛᴇᴄᴛ\n├🔹ʀᴏᴏᴍ sᴍᴜʟᴇ / ᴇᴠᴇɴᴛ \n├🔹ʀᴇᴀᴅʏ sʙ ᴏɴʟʏ \n├🔹sʙ ᴏɴʟʏ + ᴀᴊs \n├🔹sʙ + ᴀssɪsᴛ + ᴀᴊs \n├🔹ʟᴏɢɪɴ ᴊs / ʙʏᴘᴀs / ɴɪɴᴊᴀ\n├🔹ɴᴇᴡ ᴘᴇᴍʙᴜᴀᴛᴀɴ sᴄ ʙᴏᴛ \n├🔹ɴᴇᴡ ʙᴇʟᴀᴊᴀʀ ʙᴏᴛ \n├🔹ᴘᴇᴍᴀsᴀɴɢ sʙ ᴋᴇ ᴛᴇᴍᴘʟᴀᴛᴇ\n├🔹ʀᴇᴀᴅʏ ᴀᴋᴜɴ ᴄᴏɪɴ\n├🔹ʀᴇᴀᴅʏ ᴄᴏɪɴ ɢɪғᴛ \n╰────────────────── \n╭─────────────────\n├ line.me/ti/p/~4rman3\n╰─────────────────", [sender])
+                           sendMention1(sender, "╭──────────────────╮\n├🔹ᴛᴇʀɪᴍᴀ ᴋᴀsɪʜ sᴜᴅᴀʜ ᴀᴅᴅ  │\n╰──────────────────╯\n╭──────────────────\n├🔹ʀᴇᴀᴅʏ ʙᴏᴛ ᴘʀᴏᴛᴇᴄᴛ\n├🔹ʀᴏᴏᴍ sᴍᴜʟᴇ / ᴇᴠᴇɴᴛ \n├🔹ʀᴇᴀᴅʏ sʙ ᴏɴʟʏ \n├🔹sʙ ᴏɴʟʏ + ᴀᴊs \n├🔹sʙ + ᴀssɪsᴛ + ᴀᴊs \n├🔹ʟᴏɢɪɴ ᴊs / ʙʏᴘᴀs / ɴɪɴᴊᴀ\n├🔹ɴᴇᴡ ᴘᴇᴍʙᴜᴀᴛᴀɴ sᴄ ʙᴏᴛ \n├🔹ɴᴇᴡ ʙᴇʟᴀᴊᴀʀ ʙᴏᴛ \n├🔹ᴘᴇᴍᴀsᴀɴɢ sʙ ᴋᴇ ᴛᴇᴍᴘʟᴀᴛᴇ\n├🔹ʀᴇᴀᴅʏ ᴀᴋᴜɴ ᴄᴏɪɴ\n├🔹ʀᴇᴀᴅʏ ᴄᴏɪɴ ɢɪғᴛ \n╰────────────────── \n╭─────────────────\n├ line.me/ti/p/~mai06555mai\n╰─────────────────", [sender])
                            break
                            
                if msg.contentType == 7:
@@ -2698,58 +2750,32 @@ def bot(op):
                         if Amid in Setmain["RAfoto"]:
                             path = ki.downloadObjectMsg(msg_id)
                             del Setmain["RAfoto"][Amid]
-                            ki.updateProfilePicture(path)
+                            ki.updateProfilePicture(path1)
                             ki.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
                         elif Bmid in Setmain["RAfoto"]:
                             path = kk.downloadObjectMsg(msg_id)
                             del Setmain["RAfoto"][Bmid]
-                            kk.updateProfilePicture(path)
+                            kk.updateProfilePicture(path2)
                             kk.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
                         elif Cmid in Setmain["RAfoto"]:
                             path = kc.downloadObjectMsg(msg_id)
                             del Setmain["RAfoto"][Cmid]
-                            kc.updateProfilePicture(path)
+                            kc.updateProfilePicture(path3)
                             kc.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
                         elif Dmid in Setmain["RAfoto"]:
                             path = ko.downloadObjectMsg(msg_id)
                             del Setmain["RAfoto"][Dmid]
-                            ko.updateProfilePicture(path)
+                            ko.updateProfilePicture(path4)
                             ko.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
                         elif Bmid in Setmain["RAfoto"]:
                             path = jk.downloadObjectMsg(msg_id)
                             del Setmain["RAfoto"][Emid]
-                            jk.updateProfilePicture(path)
+                            jk.updateProfilePicture(path5)
                             jk.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
-                        elif Cmid in Setmain["RAfoto"]:
-                            path = bu.downloadObjectMsg(msg_id)
-                            del Setmain["RAfoto"][Fmid]
-                            bu.updateProfilePicture(path)
-                            bu.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
-                        elif Dmid in Setmain["RAfoto"]:
-                            path = bi.downloadObjectMsg(msg_id)
-                            del Setmain["RAfoto"][Gmid]
-                            bi.updateProfilePicture(path)
-                            bi.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
-                        elif Cmid in Setmain["RAfoto"]:
-                            path = bo.downloadObjectMsg(msg_id)
-                            del Setmain["RAfoto"][Hmid]
-                            bo.updateProfilePicture(path)
-                            bo.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
-                        elif Dmid in Setmain["RAfoto"]:
-                            path = be.downloadObjectMsg(msg_id)
-                            del Setmain["RAfoto"][Imid]
-                            be.updateProfilePicture(path)
-                            be.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
-                        elif Dmid in Setmain["RAfoto"]:
-                            path = by.downloadObjectMsg(msg_id)
-                            del Setmain["RAfoto"][Jmid]
-                            by.updateProfilePicture(path)
-                            by.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
-                            
                         elif Zmid in Setmain["RAfoto"]:
                             path = sw.downloadObjectMsg(msg_id)
                             del Setmain["RAfoto"][Zmid]
-                            sw.updateProfilePicture(path)
+                            sw.updateProfilePicture(path6)
                             sw.sendMessage(msg.to,"🔹ғᴏᴛᴏ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
 
                if msg.contentType == 1:
@@ -2759,6 +2785,7 @@ def bot(op):
                      path2 = kk.downloadObjectMsg(msg_id)
                      path3 = kc.downloadObjectMsg(msg_id)
                      path4 = ko.downloadObjectMsg(msg_id)
+                     path5 = jk.downloadObjectMsg(msg_id)
                      settings["changePicture"] = False
                      ki.updateProfilePicture(path1)
                      ki.sendMessage(msg.to, "🔹ғᴏᴛᴏ ʙᴏᴛ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
@@ -2768,6 +2795,8 @@ def bot(op):
                      kc.sendMessage(msg.to, "🔹ғᴏᴛᴏ ʙᴏᴛ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
                      ko.updateProfilePicture(path4)
                      ko.sendMessage(msg.to, "🔹ғᴏᴛᴏ ʙᴏᴛ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
+                     jk.updateProfilePicture(path5)
+                     jk.sendMessage(msg.to, "🔹ғᴏᴛᴏ ʙᴏᴛ ᴅᴏɴᴇ ᴅɪ ʀᴜʙᴀʜ")
 
                if msg.contentType == 0:
                     if Setmain["autoRead"] == True:
@@ -2790,7 +2819,7 @@ def bot(op):
                         elif cmd == "help":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin:
-                               sendTextTemplate(msg.to, "╭─────╮\n├🔹ʜᴇʟᴘ\n├🔹ᴍᴇɴᴜ\n├🔹ʜᴇʟᴘ¹\n├🔹ʜᴇʟᴘ²\n├🔹ʜᴇʟᴘ³\n├🔹ʜᴇʟᴘ⁴\n├🔹ʜᴇʟᴘ⅝\n├🔹ᴍʏsᴇᴛ\n├🔹ᴊᴏᴏx-ᴊᴜᴅᴜʟ\n├🔹ɢs ᴛᴀɢ\n├🔹ᴋᴄ ᴛᴀɢ\n├🔹ʜᴇʀᴇ\n├🔹ᴏᴜᴛ\n├🔹ʀs\n├🔹ʙᴄ¹:\n├🔹ʙʀᴏᴀᴅᴄᴀsᴛ:\n├🔹ᴀʙᴏᴜᴛ\n╰──────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ : Cannibal\n╰───────────────────────")
+                               sendTextTemplate(msg.to, "╭─────╮\n├🔹ʜᴇʟᴘ\n├🔹ᴍᴇɴᴜ\n├🔹ʜᴇʟᴘ¹\n├🔹ʜᴇʟᴘ²\n├🔹ʜᴇʟᴘ³\n├🔹ʜᴇʟᴘ⁴\n├🔹ʜᴇʟᴘ⅝\n├🔹ᴍʏsᴇᴛ\n├🔹ᴊᴏᴏx-ᴊᴜᴅᴜʟ\n├🔹ɢs ᴛᴀɢ\n├🔹ᴋᴄ ᴛᴀɢ\n├🔹ʜᴇʀᴇ\n├🔹ᴏᴜᴛ\n├🔹ʀs\n├🔹ʙᴄ¹:\n├🔹ʙʀᴏᴀᴅᴄᴀsᴛ:\n├🔹ᴀʙᴏᴜᴛ\n╰──────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ : mai\n╰───────────────────────")
  
                         elif cmd == "self off":
                             if msg._from in admin:
@@ -2800,7 +2829,7 @@ def bot(op):
                         elif cmd == "help1":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin:
-                               sendTextTemplate(msg.to, "╭───────────╮\n├🔹ɴᴏᴛᴀɢ ᴏɴ|ᴏғғ\n├🔹ᴀʟʟᴘʀᴏ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴜʀʟ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴊᴏɪɴ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴋɪᴄᴋ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴄᴀɴᴄᴇʟ ᴏɴ|ᴏғғ\n╰───────────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ : Cannibal\n╰───────────────────────")                 
+                               sendTextTemplate(msg.to, "╭───────────╮\n├🔹ɴᴏᴛᴀɢ ᴏɴ|ᴏғғ\n├🔹ᴀʟʟᴘʀᴏ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴜʀʟ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴊᴏɪɴ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴋɪᴄᴋ ᴏɴ|ᴏғғ\n├🔹ᴘʀᴏᴛᴇᴄᴛᴄᴀɴᴄᴇʟ ᴏɴ|ᴏғғ\n╰───────────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ : mai\n╰───────────────────────")                 
                         elif cmd == "help2":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
@@ -2809,15 +2838,15 @@ def bot(op):
                         elif cmd == "help3":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin:
-                               sendTextTemplate(msg.to, "╭───────╮\n├🔹ʜᴀʜ\n├🔹sᴜᴇ\n├🔹ᴡᴏʏ/ᴄᴏʟᴏᴋ\n├🔹sᴇᴅɪʜ\n├🔹sᴇᴘɪ\n├🔹ʜᴀᴅᴇʜ\n├🔹ᴊᴜᴍʟᴀʜ:\n├🔹sᴛᴀɢ ᴛᴀɢ\n├🔹sᴘᴀᴍᴄᴀʟʟ: ᴊᴜᴍʟᴀʜ\n├🔹sᴘᴀᴍᴄᴀʟʟ\n╰──────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ : Cannibal\n╰───────────────────────")
+                               sendTextTemplate(msg.to, "╭───────╮\n├🔹ʜᴀʜ\n├🔹sᴜᴇ\n├🔹ᴡᴏʏ/ᴄᴏʟᴏᴋ\n├🔹sᴇᴅɪʜ\n├🔹sᴇᴘɪ\n├🔹ʜᴀᴅᴇʜ\n├🔹ᴊᴜᴍʟᴀʜ:\n├🔹sᴛᴀɢ ᴛᴀɢ\n├🔹sᴘᴀᴍᴄᴀʟʟ: ᴊᴜᴍʟᴀʜ\n├🔹sᴘᴀᴍᴄᴀʟʟ\n╰──────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ : mai\n╰───────────────────────")
                         elif cmd == "help4":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin:
-                               sendTextTemplate(msg.to, "╭───────────╮\n├🔹ʀᴇsᴘᴏɴ ᴏɴ|ᴏғғ\n├🔹ᴄᴏɴᴛᴀᴄᴛ ᴏɴ|ᴏғғ\n├🔹ᴀᴜᴛᴏᴊᴏɪɴ ᴏɴ|ᴏғғ\n├🔹ᴀᴜᴛᴏᴀᴅᴅ ᴏɴ|ᴏғғ\n├🔹ᴀᴜᴛᴏʟᴇᴀᴠᴇ ᴏɴ|ᴏғғ\n├🔹ᴡᴇʟᴄᴏᴍᴇ ᴏɴ|ᴏғғ\n├??ᴊᴀɴᴅᴀ ᴏɴ|ᴏғғ\n╰───────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ : ᴀʙɪ Cannibal\n╰───────────────────────")
+                               sendTextTemplate(msg.to, "╭───────────╮\n├🔹ʀᴇsᴘᴏɴ ᴏɴ|ᴏғғ\n├🔹ᴄᴏɴᴛᴀᴄᴛ ᴏɴ|ᴏғғ\n├🔹ᴀᴜᴛᴏᴊᴏɪɴ ᴏɴ|ᴏғғ\n├🔹ᴀᴜᴛᴏᴀᴅᴅ ᴏɴ|ᴏғғ\n├🔹ᴀᴜᴛᴏʟᴇᴀᴠᴇ ᴏɴ|ᴏғғ\n├🔹ᴡᴇʟᴄᴏᴍᴇ ᴏɴ|ᴏғғ\n├??ᴊᴀɴᴅᴀ ᴏɴ|ᴏғғ\n╰───────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ : ᴀʙɪ mai\n╰───────────────────────")
                         elif cmd == "help5":
                           if wait["selfbot"] == True:
                             if msg._from in owner or msg._from in admin:
-                               sendTextTemplate(msg.to, "╭─────────╮\n├🔹ᴀᴅᴍɪɴ:ᴏɴ\n├🔹ᴀᴅᴍɪɴ:ʀᴇᴘᴇᴀᴛ\n├🔹sᴛᴀғғ:ᴏɴ\n├🔹sᴛᴀғғ:ʀᴇᴘᴇᴀᴛ\n├🔹ᴀᴅᴍɪɴᴀᴅᴅ ᴛᴀɢ\n├🔹ᴀ ᴛᴀɢ\n├🔹s ᴛᴀɢ\n├🔹s ᴛᴀɢ\n├🔹ʙᴏᴛᴀᴅᴅ ᴛᴀɢ\n├🔹ʙᴏᴛᴅᴇʟʟ ᴛᴀɢ\n├🔹ʀᴇғʀᴇsʜ\n├🔹ʟɪsᴛʙᴏᴛ\n├🔹ʟɪsᴛᴀᴅᴍɪɴ\n├🔹ʟɪsᴛᴘʀᴏᴛᴇᴄᴛ\n├🔹sᴇʟғ ᴏɴ|ᴏғғ\n╰─────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ : Cannibal\n╰───────────────────────")
+                               sendTextTemplate(msg.to, "╭─────────╮\n├🔹ᴀᴅᴍɪɴ:ᴏɴ\n├🔹ᴀᴅᴍɪɴ:ʀᴇᴘᴇᴀᴛ\n├🔹sᴛᴀғғ:ᴏɴ\n├🔹sᴛᴀғғ:ʀᴇᴘᴇᴀᴛ\n├🔹ᴀᴅᴍɪɴᴀᴅᴅ ᴛᴀɢ\n├🔹ᴀ ᴛᴀɢ\n├🔹s ᴛᴀɢ\n├🔹s ᴛᴀɢ\n├🔹ʙᴏᴛᴀᴅᴅ ᴛᴀɢ\n├🔹ʙᴏᴛᴅᴇʟʟ ᴛᴀɢ\n├🔹ʀᴇғʀᴇsʜ\n├🔹ʟɪsᴛʙᴏᴛ\n├🔹ʟɪsᴛᴀᴅᴍɪɴ\n├🔹ʟɪsᴛᴘʀᴏᴛᴇᴄᴛ\n├🔹sᴇʟғ ᴏɴ|ᴏғғ\n╰─────────╯\n\n╭───────────────────────\n├🔹ᴄʀᴇᴀᴛᴏʀ ᴛᴇᴍᴘʟᴀᴛᴇ ʙʏᴇ : mai\n╰───────────────────────")
                         
                         elif cmd.startswith("broadcast: "):
                            if msg._from in admin:
@@ -2853,7 +2882,7 @@ def bot(op):
         "aspectMode": "cover",
         "url": "https://media0.giphy.com/media/xVxio2tNLAM5q/200w.webp?cid=19f5b51a5c44951d4b47664273e6c074",
         "action": {
-          "uri": "http://line.me/ti/p/~4rman3",
+          "uri": "http://line.me/ti/p/~mai06555mai",
           "type": "uri"
         },
         "type": "image",
@@ -2874,7 +2903,7 @@ def bot(op):
       "body": {
         "contents": [
           {
-            "text": "Cannibal Killer Template",
+            "text": "mai",
             "color": "#00FFFF",
             "wrap": True,
             "weight": "bold",
@@ -3042,7 +3071,7 @@ def bot(op):
             "color": "#000000",
             "action": {
               "type": "uri",
-              "uri": "http://line.me/ti/p/~4rman3"
+              "uri": "http://line.me/ti/p/~mai06555mai"
             },
             "align": "center"            
           }
@@ -3055,14 +3084,14 @@ def bot(op):
         "contents": [
           {
             "type": "text",
-            "text": "ᴋᴇᴘᴏɪɴ sᴇᴋᴀʀᴀɴɢ\nhttp://line.me/ti/p/~4rman3",
+            "text": "ᴋᴇᴘᴏɪɴ sᴇᴋᴀʀᴀɴɢ\nhttp://line.me/ti/p/~mai06555mai",
             "size": "xl",
             "wrap": True,
             "weight": "bold",
             "color": "#000000",
             "action": {
               "type": "uri",
-              "uri": "http://line.me/ti/p/~4rman3"
+              "uri": "http://line.me/ti/p/~mai06555mai"
             },
             "align": "center"                            
           }
@@ -3080,7 +3109,7 @@ def bot(op):
                                 status = cl.getContact(sender)                               	
                                 data = {
                                         "type": "flex",
-                                        "altText": "Cannibal Killer",
+                                        "altText": "mai",
                                         "contents": {
 "type": "bubble",
   "body": {
@@ -3170,7 +3199,7 @@ def bot(op):
         "color": "#E5E4E2",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~4rman3"
+          "uri": "http://line.me/ti/p/~mai06555mai"
         },
         "align": "center"
       }
@@ -3220,7 +3249,7 @@ def bot(op):
             "color": "#FF0000"
           },
           {
-            "text": "Cannibal Killer\n\nᴍᴘ³",
+            "text": "mai\n\nᴍᴘ³",
             "size": "sm",
             "color": "#FF0000",
             "wrap": True,
@@ -3303,12 +3332,12 @@ def bot(op):
                                 sendTextTemplate(to, "error\n" + str(error))
                                 logError(error)
  
-                        elif cmd == "myset":
+                        elif cmd == "set":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 tz = pytz.timezone("Asia/Jakarta")
                                 timeNow = datetime.now(tz=tz)
-                                md = "╭──Cannibal Killer──\n"
+                                md = "╭──MAI──\n"
                                 if wait["sticker"] == True: md+="├🔹sᴛɪᴄᴋᴇʀ ᴏɴ\n"
                                 else: md+="├🔹sᴛɪᴄᴋᴇʀ ᴏғғ\n"
                                 if wait["left"] == True: md+="├🔹ʟᴇғᴛ ᴏɴ\n"
@@ -3522,7 +3551,7 @@ def bot(op):
             "color": "#FF0000"
           },
           {
-            "text": "Team Cannibal\n\nSelfbot",
+            "text": "Team mai\n\nSelfbot",
             "size": "xs",
             "color": "#FF0000",
             "wrap": True,
@@ -3541,7 +3570,7 @@ def bot(op):
       {
         "contents": [
           {
-            "text": "Cannibal Team Bot",
+            "text": "mai Team Bot",
             "size": "xs",
             "align": "center",
             "color": "#00FFFF",
@@ -3626,7 +3655,7 @@ def bot(op):
           {
             "contents": [
               {
-                "text": "ᴠᴇʀsɪ : Cannibal",
+                "text": "ᴠᴇʀsɪ : mai",
                 "size": "xs",
                 "margin": "none",
                 "color": "#FFFF00",
@@ -3641,7 +3670,7 @@ def bot(op):
           {
             "contents": [
               {
-                "text": "Support By Cannibal Killer",
+                "text": "Support By mai",
                 "size": "xs",
                 "margin": "none",
                 "color": "#FF6347",
@@ -3675,7 +3704,7 @@ def bot(op):
         "color": "#7CFC00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~4rman3"
+          "uri": "http://line.me/ti/p/~mai06555mai"
         },
         "align": "center"
       },
@@ -3685,14 +3714,14 @@ def bot(op):
       },
       {
         "type": "text",
-        "text": "Cannibal Killer",
+        "text": "mai",
         "size": "xs",
         "wrap": True,
         "weight": "bold",
         "color": "#7CFC00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~4rman3"
+          "uri": "http://line.me/ti/p/~mai06555mai"
         },
         "align": "center"
       }
@@ -3707,7 +3736,7 @@ def bot(op):
                             if msg._from in admin:
                                   musik(to)
                                   
-                        elif cmd == ".me" or text.lower() == 'gue':
+                        elif cmd == "me" or text.lower() == 'มี':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 msg.contentType = 13
@@ -3751,12 +3780,9 @@ def bot(op):
                                else:
                                    cl.sendImageWithURL(msg.to, 'http://dl.profile.line.naver.jp'+str(mi.picturePath))
 
-                        elif cmd == "mybot":
+                        elif cmd == "bot":
                           if wait["selfbot"] == True:
                             if msg._from in admin or msg._from in creator:
-                               msg.contentType = 13
-                               msg.contentMetadata = {'mid': mid}
-                               cl.sendMessage1(msg)
                                msg.contentType = 13
                                msg.contentMetadata = {'mid': Amid}
                                cl.sendMessage1(msg)
@@ -3773,25 +3799,10 @@ def bot(op):
                                msg.contentMetadata = {'mid': Emid}
                                cl.sendMessage1(msg)
                                msg.contentType = 13 
-                               msg.contentMetadata = {'mid': Fmid}
-                               cl.sendMessage1(msg)
-                               msg.contentType = 13
-                               msg.contentMetadata = {'mid': Gmid}
-                               cl.sendMessage1(msg)
-                               msg.contentType = 13
-                               msg.contentMetadata = {'mid': Hmid}
-                               cl.sendMessage1(msg)
-                               msg.contentType = 13
-                               msg.contentMetadata = {'mid': Imid}
-                               cl.sendMessage1(msg)
-                               msg.contentType = 13
-                               msg.contentMetadata = {'mid': Jmid}
-                               cl.sendMessage1(msg)
-                               msg.contentType = 13 
                                msg.contentMetadata = {'mid': Zmid}
                                cl.sendMessage1(msg)
 
-                        elif text.lower() == "hapuschat":
+                        elif text.lower() == "ลบแชท":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                try:
@@ -3800,7 +3811,7 @@ def bot(op):
                                except:
                                    pass
 
-                        elif text.lower() == "all clear":
+                        elif text.lower() == "ลบแชทคิก":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                try:
@@ -3809,7 +3820,11 @@ def bot(op):
                                    kk.removeAllMessages(op.param2)
                                    kk.sendMessage(msg.to,"🔹ʜᴀᴘᴜs ᴄʜᴀᴛ ʙᴏᴛ ᴅᴏɴᴇ")
                                    kc.removeAllMessages(op.param2)
-                                   kc.sendMessage(msg.to,"🔹ʜᴀᴘᴜs ᴄʜᴀᴛ ʙᴏᴛ ᴅᴏɴᴇ")                              
+                                   kc.sendMessage(msg.to,"🔹ʜᴀᴘᴜs ᴄʜᴀᴛ ʙᴏᴛ ᴅᴏɴᴇ") 
+                                   ko.removeAllMessages(op.param2)
+                                   ko.sendMessage(msg.to,"🔹ʜᴀᴘᴜs ᴄʜᴀᴛ ʙᴏᴛ ᴅᴏɴᴇ") 
+                                   jk.removeAllMessages(op.param2)
+                                   jk.sendMessage(msg.to,"🔹ʜᴀᴘᴜs ᴄʜᴀᴛ ʙᴏᴛ ᴅᴏɴᴇ") 
                                    sendTextTemplate(msg.to,"🔹ʜᴀᴘᴜs ᴄʜᴀᴛ ʙᴏᴛ ᴅᴏɴᴇ")
                                except:
                                    pass
@@ -3827,7 +3842,7 @@ def bot(op):
         "aspectMode": "cover",
         "url": "https://media1.giphy.com/media/fnKtAO0GLeiD6/200w.webp?cid=19f5b51a5c454d542f704f7a6395da37",
         "action": {
-          "uri": "http://line.me/ti/p/~4rman3",
+          "uri": "http://line.me/ti/p/~mai06555mai",
           "type": "uri"
         },
         "type": "image",
@@ -3888,7 +3903,7 @@ def bot(op):
             "color": "#FFFFFF",
             "action": {
               "type": "uri",
-              "uri": "http://line.me/ti/p/~4rman3"
+              "uri": "http://line.me/ti/p/~mai06555mai"
             },
             "align": "center"            
           }
@@ -3901,7 +3916,7 @@ def bot(op):
         "contents": [
           {
             "type": "text",
-            "text": "Cannibal Bot",
+            "text": "mai Bot",
             "size": "xl",
             "wrap": True,
             "weight": "bold",
@@ -3914,368 +3929,7 @@ def bot(op):
   ],
   "type": "carousel"
 }
-                                   #cl.postFlex(group, data)
-                              #     
-                       # elif cmd.startswith("broadcast: "):
-                      #    if wait["selfbot"] == True:
-                    #        if msg._from in admin:
-                   #            sep = text.split(" ")
-                   #            pesan = text.replace(sep[0] + " ","")
-                #               saya = cl.getGroupIdsJoined()
-                  #             for group in saya:
-                #                   sendTextTemplate8(group,"[ ɴᴜᴍᴘᴀɴɢ ᴘʀᴏᴍᴏ ᴋᴋ ]\n" + str(pesan))
-#
-                #        elif "hah" in msg.text.lower():
-                 #                   url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                #                    to = msg.to
-                   #                 data = {
-                     #                           "type": "template",
-                   #                             "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                    #                            "template": {
-                      #                             "type": "image_carousel",
-                       #                            "columns": [
-                         #                           {
-                              #                          "imageUrl": "https://4.bp.blogspot.com/-W_bn2qqdYXE/Wyhbjj2wqKI/AAAAAAANIz4/KQVsbq-aXm0kZNfFOS5SN8fqCvQ18xnUACLcBGAs/s1600/AW1238502_03.gif",
-                                    #                    "size": "full", 
-                                 #                       "action": {
-                                    #                        "type": "uri",
-                                  #                          "uri": "http://line.me/ti/p/~muhajir_alwi"
-               #                  }                                                
-              #         }
-               #       ]
-                                #                }
-                      #                      }
-                           #         cl.postTemplate(to, data)
-                             #       
-                  #      elif "sedih" in msg.text.lower():
-                      #              url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                   #                 to = msg.to
-                      #              data = {
-                          #                      "type": "template",
-                         #                       "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                         #                       "template": {
-                         #                          "type": "image_carousel",
-                          #                         "columns": [
-                          #                          {
-                           #                             "imageUrl": "https://3.bp.blogspot.com/-OfIz4mSIumw/WbLEZw7l6nI/AAAAAAARd6Y/Dxzos1SA_5MU32bXFTKToLDndM7YpV7WACLcBGAs/s1600/AW529310_04.gif",
-                         #                               "size": "full", 
-                             #                           "action": {
-                              #                              "type": "uri",
-                             #                               "uri": "http://line.me/ti/p/~muhajir_alwi"
-              #                   }                                                
-               #        }
-                  #    ]
-                         #                       }
-                          #                  }
-                      #              cl.postTemplate(to, data) 
-                                  #  
-                      #  elif "hadeh" in msg.text.lower():
-                        #            url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                       #             to = msg.to
-                        #            data = {
-                       #                         "type": "template",
-                        #                        "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                               #                 "template": {
-                         #                          "type": "image_carousel",
-                       #                            "columns": [
-                         #                           {
-                          #                              "imageUrl": "https://i.ibb.co/dJ1H13M/Benjol.gif",
-                            #                            "size": "full", 
-                             #                           "action": {
-                             #                               "type": "uri",
-                              #                              "uri": "http://line.me/ti/p/~muhajir_alwi"
-                          #       }                                                
-            #           }
-           #           ]
-                #                                }
-                   #                         }
-                    #                cl.postTemplate(to, data)
-                       #
-                #        elif "bomat" in msg.text.lower():
-                 #                   url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                    #                to = msg.to
-                  #                  data = {
-                    #                            "type": "template",
-                 #                               "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                      #                          "template": {
-                          #                         "type": "image_carousel",
-                          #                         "columns": [
-                          #                          {
-                            #                            "imageUrl": "https://lh3.googleusercontent.com/-xNJ4AMTRxv4/Wx92ZYSEflI/AAAAAAACsvA/KK44SSrO6dYlR7Xig15WXDN7oCcUS6fPwCJoC/w480-h480-n/gplus-1561983519.gif",
-                           #                             "size": "full", 
-                         #                               "action": {
-                        #                                    "type": "uri",
-                        #                                    "uri": "http://line.me/ti/p/~muhajir_alwi"
-                      #           }                                                
-                #       }
-             #         ]
-                    #                            }
-                   #                         }
-                   #                 cl.postTemplate(to, data)
-              #                      
-                  #      elif "asem" in msg.text.lower():
-                #                    url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-              #                      to = msg.to
-                 #                   data = {
-                     #                           "type": "template",
-                  #                              "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                     #                           "template": {
-                    #                               "type": "image_carousel",
-                      #                             "columns": [
-                   #                                 {
-                       #                                 "imageUrl": "https://1.bp.blogspot.com/-j51nCknouj8/WDwHtTJUqKI/AAAAAAALmo8/qax6OG7QAmQs6aICNGwSP0CkebJzAbOSgCLcB/s1600/AS001874_19.gif",
-                         #                               "size": "full", 
-                       #                                 "action": {
-                       #                                     "type": "uri",
-                        #                                    "uri": "http://line.me/ti/p/~muhajir_alwi"
-                      #           }                                                
-                #       }
-                #      ]
-                     #                           }
-                      #                      }
-                                  #  cl.postTemplate(to, data)
-                          #          
-                        #elif "biarin" in msg.text.lower():
-                      #              url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                       #             to = msg.to
-                       #             data = {
-                             #                   "type": "template",
-                              #                  "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                              #                  "template": {
-                             #                      "type": "image_carousel",
-                               #                    "columns": [
-                              #                      {
-                               #                         "imageUrl": "https://2.bp.blogspot.com/-ZlkxlajQM4k/WMlfThHb6eI/AAAAAAAOBf4/BNwKEazXVbc2xK2acnDck8MLJZ21lCeJwCLcB/s1600/AW392405_04.gif",
-                                #                        "size": "full", 
-                                 #                       "action": {
-                                  #                          "type": "uri",
-                              #                              "uri": "http://line.me/ti/p/~muhajir_alwi"
-                           #      }                                                
-                  #     }
-                 #     ]
-                            #                    }
-                           #                 }
-                            #        cl.postTemplate(to, data)                                                         
-                        #            
-                      #  elif "otw" in msg.text.lower():
-                       #             url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                        #            to = msg.to
-                         #           data = {
-                         #                       "type": "template",
-                           #                     "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                             #                   "template": {
-                              #                     "type": "image_carousel",
-                                #                   "columns": [
-                               #                     {
-                               #                         "imageUrl": "https://1.bp.blogspot.com/-CSIjz01zHi0/WMlfTS0Qw2I/AAAAAAAOBf0/7gw5JrbNbkQe-rdMqaNGuhhVBpE4snhWACLcB/s1600/AW392405_03.gif",
-                              #                          "size": "full", 
-                               #                         "action": {
-                               #                             "type": "uri",
-                              #                              "uri": "http://line.me/ti/p/~muhajir_alwi"
-                            #     }                                                
-                    #   }
-                 #     ]
-                         #                       }
-                            #                }
-                                 #   cl.postTemplate(to, data)
-   
-                    #    elif "oke" in msg.text.lower():
-                       #             url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                     #               to = msg.to
-                   #                 data = {
-                    #                            "type": "template",
-                     #                           "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                     #                           "template": {
-                    #                               "type": "image_carousel",
-                    #                               "columns": [
-                     #                               {
-                      #                                  "imageUrl": "https://3.bp.blogspot.com/-_ZZg6eH89Gc/WE95b91DwsI/AAAAAAAEpnI/tWy69rJIAmsPx7clwzBhVXiSOdpZSp4NACLcB/s1600/AW305486_05.gif",
-                      #                                  "size": "full", 
-                    #                                    "action": {
-                        #                                    "type": "uri",
-                        #                                    "uri": "http://line.me/ti/p/~muhajir_alwi"
-                       #          }                                                
-                   #    }
-               #       ]
-                    #                            }
-                #                            }
-                   #                 cl.postTemplate(to, data)
-                   #                 
-                #        elif "sue" in msg.text.lower():
-                  #                  url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                  #                  to = msg.to
-                #                    data = {
-                 #                               "type": "template",
-                 #                               "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                   #                             "template": {
-                 #                                  "type": "image_carousel",
-                      #                             "columns": [
-                 #                                   {
-                    #                                    "imageUrl": "https://i.ibb.co/y0wP3fJ/tai-line.gif",
-                     #                                   "size": "full", 
-                      #                                  "action": {
-                        #                                    "type": "uri",
-                        #                                    "uri": "http://line.me/ti/p/~muhajir_alwi"
-                       #          }                                                
-               #        }
-               #       ]
-                   #                             }
-                   #                         }
-                #                    cl.postTemplate(to, data)
-                #                    
-               #         elif "wkwk" in msg.text.lower():
-                       #             url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                         #           to = msg.to
-                           #         data = {
-                              #                  "type": "template",
-                              #                  "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                              #                  "template": {
-                                #                   "type": "image_carousel",
-                                 #                  "columns": [
-                                  #                  {
-                                  #                      "imageUrl": "https://thumbs.gfycat.com/QuaintScornfulAmericanlobster-small.gif",
-                                  #                      "size": "full", 
-                                  #                      "action": {
-                                     #                       "type": "uri",
-                                    #                        "uri": "http://line.me/ti/p/~muhajir_alwi"
-                      #           }                                                
-                  #     }
-                  #    ]
-                         #                       }
-                            #                }
-                          #          cl.postTemplate(to, data)
-                      #           
-                    #    elif "coba" in msg.text.lower():                     	
-                       #             url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                         #           to = msg.to
-                          #          data = {
-                             #                   "type": "template",
-                            #                    "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                              #                  "template": {
-                             #                      "type": "image_carousel",
-                                 #                  "columns": [
-                                 #                   {
-                               #                         "imageUrl": "https://stickershop.line-scdn.net/stickershop/v1/sticker/32128231/IOS/sticker_animation@2x.png",
-                              #                          "size": "full", 
-                              #                          "action": {
-                             #                               "type": "uri",
-                              #                              "uri": "http://line.me/ti/p/~muhajir_alwi"
-                  #               }                                                
-               #        }
-              #        ]
-                #                                }
-                    #                        }
-                           #         cl.postTemplate(to, data)
-         #
-                  #      elif "wah" in msg.text.lower():                     	
-                         #           url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                          #          to = msg.to
-                              #      data = {
-                                #                "type": "template",
-                               #                 "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                                 #               "template": {
-                                  #                 "type": "image_carousel",
-                               #                    "columns": [
-                              #                      {
-                                #                        "imageUrl": "https://appstickers-cdn.appadvice.com/1161475669/819158103/5950933cc2b8a0948941fc446c3e1938-5.gif",
-                                  #                      "size": "full", 
-                                    #                    "action": {
-                              #                              "type": "uri",
-                               #                             "uri": "http://line.me/ti/p/~muhajir_alwi"
-                 #                }                                                
-                #       }
-               #       ]
-                     #                           }
-                     #                       }
-                          #          cl.postTemplate(to, data)
-                         #           
-                    #    elif "cium" in msg.text.lower():                     	
-                          #          url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                            #        to = msg.to
-                               #     data = {
-                               #                 "type": "template",
-                                #                "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                               #                 "template": {
-                                #                   "type": "image_carousel",
-                              #                     "columns": [
-                              #                      {
-                                #                        "imageUrl": "https://i.ibb.co/CVMQ40k/7c8ab257ee3b7e1ef283b7c0a35d9d2c.gif",
-                               #                         "size": "full", 
-                              #                          "action": {
-                                     #                       "type": "uri",
-                            #                                "uri": "http://line.me/ti/p/~muhajir_alwi"
-                         #        }                                                
-                   #    }
-                    #  ]
-                        #                        }
-                             #               }
-                                 #   cl.postTemplate(to, data)
-           #
-                      #  elif "gombal" in msg.text.lower():
-                           #         url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                          #          to = msg.to
-                               #     data = {
-                              #                  "type": "template",
-                                 #               "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                                 #               "template": {
-                                   #                "type": "image_carousel",
-                                    #               "columns": [
-                                    #                {
-                                  #                      "imageUrl": "https://thumbs.gfycat.com/KlutzyUglyGelding-small.gif",
-                               #                         "size": "full", 
-                                   #                     "action": {
-                                   #                         "type": "uri",
-                                      #                      "uri": "http://line.me/ti/p/~muhajir_alwi"
-                          #       }                                                
-                 #      }
-                  #    ]
-                       #                         }
-                         #                   }
-                          #          cl.postTemplate(to, data)
-                        #            
-                      #  elif "diam" in msg.text.lower():
-                           #         url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                             #       to = msg.to
-                              #      data = {
-                                 #               "type": "template",
-                               #                 "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                                      #          "template": {
-                                     #              "type": "image_carousel",
-                                         #          "columns": [
-                                    #                {
-                                         #               "imageUrl": "https://thumbs.gfycat.com/BigIdealAsianelephant-small.gif",
-                                        #                "size": "full", 
-                                    #                    "action": {
-                                     #                       "type": "uri",
-                                            #                "uri": "http://line.me/ti/p/~muhajir_alwi"
-                    #             }                                                
-             #          }
-                 #     ]
-               #                                 }
-                      #                      }
-                        #            cl.postTemplate(to, data)
-                           #         
-                    #    elif "sepi" in msg.text.lower():
-                       #             url = "https://game.linefriends.com/jbp-lcs-ranking/lcs/sendMessage"
-                           #         to = msg.to
-                          #          data = {
-                            #                    "type": "template",
-                                   #             "altText": "{} sent a sticker".format(cl.getProfile().displayName),
-                            #                    "template": {
-                                     #              "type": "image_carousel",
-                           #                        "columns": [
-                                      #              {
-                              #                          "imageUrl": "https://i.ibb.co/hHG5Mwb/AW316819-05.gif",
-                                    #                    "size": "full", 
-                                              #          "action": {
-                                     #                       "type": "uri",
-                                  #                          "uri": "http://line.me/ti/p/~muhajir_alwi"
-                               #  }                                                
-                #       }
-                   #   ]
-                            #                    }
-                                       #     }
-                                 #   cl.postTemplate(to, data)
+
                         elif text.lower() == "mykey":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
@@ -4298,7 +3952,7 @@ def bot(op):
                                Setmain["keyCommand"] = ""
                                sendTextTemplate(msg.to, "🔹sᴇᴛᴋᴇʏ\n🔹ᴋᴇᴍʙᴀʟɪ ᴋᴇ ᴀᴡᴀʟ")
 
-                        elif cmd == "restart":
+                        elif cmd == "รี":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                sendTextTemplate(msg.to, "🔹ᴡᴀɪᴛ....")
@@ -4306,11 +3960,11 @@ def bot(op):
                                restartBot()
                                sendTextTemplate(msg.to, "🔹ᴅᴏɴᴇ ʀᴇsᴛᴀʀᴛ...")
                             
-                        elif cmd == "runtime":
+                        elif cmd == "ออน":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                eltime = time.time() - mulai
-                               bot = "🔹ʙᴏᴛ ᴀᴋᴛɪғ sᴇʟᴀᴍᴀ🔹\n" +waktu(eltime)
+                               bot = "🔹ʙᴏᴛ🔹\n" +waktu(eltime)
                                sendTextTemplate(msg.to,bot)
                             
                         elif cmd == "ginfo":
@@ -4486,7 +4140,7 @@ def bot(op):
                                    ma += "├🔹" + str(a) + ". " +G.name+ "\n"
                                ko.sendMessage(msg.to,"╭── 🔹ɢʀᴏᴜᴘ ʟɪsᴛ🔹\n│\n"+ma+"│\n╰──🔹ᴛᴏᴛᴀʟ"+str(len(gid))+"ɢʀᴏᴜᴘ🔹")                               
 
-                        elif cmd == "open":
+                        elif cmd == "เปิดลิ้ง":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 if msg.toType == 2:
@@ -4495,7 +4149,7 @@ def bot(op):
                                    cl.updateGroup(X)
                                    sendTextTemplate(msg.to, "🔹ᴏᴘᴇɴ ᴜʀʟ")
 
-                        elif cmd == "close":
+                        elif cmd == "ปิดลิ้ง":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 if msg.toType == 2:
@@ -4504,7 +4158,7 @@ def bot(op):
                                    cl.updateGroup(X)
                                    sendTextTemplate(msg.to, "🔹ᴄʟᴏsᴇ ᴜʀʟ")
 
-                        elif cmd == "url grup":
+                        elif cmd == "ลิ้ง":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 if msg.toType == 2:
@@ -4562,33 +4216,9 @@ def bot(op):
                                 
                         elif cmd == "bot6":
                             if msg._from in admin:
-                                Setmain["RAfoto"][Fmid] = True
+                                Setmain["RAfoto"][(Zmid] = True
                                 sw.sendMessage(msg.to,"🔹ᴋɪʀɪᴍ ғᴏᴛᴏɴʏᴀ")                                
                                 
-                        elif cmd == "bot7":
-                            if msg._from in admin:
-                                Setmain["RAfoto"][Gmid] = True
-                                sw.sendMessage(msg.to,"🔹ᴋɪʀɪᴍ ғᴏᴛᴏɴʏᴀ")                                
-                                
-                        elif cmd == "bot8":
-                            if msg._from in admin:
-                                Setmain["RAfoto"][Hmid] = True
-                                sw.sendMessage(msg.to,"🔹ᴋɪʀɪᴍ ғᴏᴛᴏɴʏᴀ")                                
-                                
-                        elif cmd == "bot9":
-                            if msg._from in admin:
-                                Setmain["RAfoto"][Imid] = True
-                                sw.sendMessage(msg.to,"🔹ᴋɪʀɪᴍ ғᴏᴛᴏɴʏᴀ")                                
-                                
-                        elif cmd == "bot10":
-                            if msg._from in admin:
-                                Setmain["RAfoto"][Jmid] = True
-                                sw.sendMessage(msg.to,"🔹ᴋɪʀɪᴍ ғᴏᴛᴏɴʏᴀ")                                
-                                
-                        elif cmd == "bot11":
-                            if msg._from in admin:
-                                Setmain["RAfoto"][Zmid] = True
-                                sw.sendMessage(msg.to,"🔹ᴋɪʀɪᴍ ғᴏᴛᴏɴʏᴀ")
 
                         elif cmd.startswith("myname: "):
                           if msg._from in admin:
@@ -4724,7 +4354,7 @@ def bot(op):
                                     mc += str(c) + ". " +cl.getContact(m_id).displayName + "\n"
                                 sendTextTemplate3(msg.to,"🔹ᴀᴅᴍɪɴ ᴀʙɪ🔹\n\n🔹sᴜᴘᴇʀ ᴀᴅᴍɪɴ :\n"+ma+"\n🔹ᴀᴅᴍɪɴ :\n"+mb+"\n🔹sᴛᴀғғ :\n"+mc+"\n🔹ᴊᴜᴍʟᴀʜ ᴀᴅᴍɪɴ ᴀʙɪ「%s」🔹" %(str(len(owner)+len(admin)+len(staff))))
 
-                        elif cmd == "listprotect":
+                        elif cmd == "set2":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 ma = ""
@@ -4757,7 +4387,7 @@ def bot(op):
                                     mc += str(c) + ". " +cl.getGroup(group).name + "\n"
                                 sendTextTemplate(msg.to,"🔹ᴄᴇᴋ ᴘʀᴏ ɢʀᴏᴜᴘ🔹\n\n🔹ᴘʀᴏ ᴜʀʟ :\n"+ma+"\n🔹ᴘʀᴏ ᴋɪᴄᴋ :\n"+mb+"\n🔹ᴘʀᴏ ᴊᴏɪɴ :\n"+md+"\n🔹ᴘʀᴏ ᴄᴀɴᴄᴇʟ :\n"+mc+"\n🔹ᴊᴜᴍʟᴀʜ  %s ɢʀᴏᴜᴘ ᴀʙɪ ᴊᴀɢᴀ🔹" %(str(len(protectqr)+len(protectkick)+len(protectjoin)+len(protectcancel))))
 
-                        elif cmd == "oleng":
+                        elif cmd == "b":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 ki.sendMessage(msg.to,responsename1)
@@ -4766,7 +4396,7 @@ def bot(op):
                                 ko.sendMessage(msg.to,responsename4)
                                 jk.sendMessage(msg.to,responsename5)
 
-                        elif cmd == "join":
+                        elif cmd == "iv":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 try:
@@ -4899,14 +4529,14 @@ def bot(op):
                                 G.preventedJoinByTicket = True
                                 cl.updateGroup(G)
                                 
-                        elif cmd == "pasukan":
+                        elif cmd == "bb":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
-                               ki.sendMessage(msg.to, "ʀᴇᴀᴅʏ ʙᴏssᴋᴜ")
-                               kk.sendMessage(msg.to, "ʀᴇᴀᴅʏ ʙᴏssᴋᴜ")
-                               kc.sendMessage(msg.to, "ʀᴇᴀᴅʏ ʙᴏssᴋᴜ")
-                               ko.sendMessage(msg.to, "ʀᴇᴀᴅʏ ʙᴏssᴋᴜ")
-                               jk.sendMessage(msg.to, "ʀᴇᴀᴅʏ ʙᴏssᴋᴜ")
+                               ki.sendMessage(msg.to, "ʀᴇᴀᴅʏ ok")
+                               kk.sendMessage(msg.to, "ʀᴇᴀᴅʏ ok")
+                               kc.sendMessage(msg.to, "ʀᴇᴀᴅʏ ok")
+                               ko.sendMessage(msg.to, "ʀᴇᴀᴅʏ ok")
+                               jk.sendMessage(msg.to, "ʀᴇᴀᴅʏ ok")
                                 
                         elif cmd == "as1":
                             if msg._from in admin:
@@ -4993,12 +4623,11 @@ def bot(op):
                                 get_contact_time = time.time() - get_contact_time_start
                                 sendTextTemplate(msg.to, " 🔹ᴋᴇᴄᴇᴘᴀᴛᴀɴ ʀᴇsᴘᴏɴ🔹\n\n🔹ɢᴇᴛ ᴘʀᴏғɪʟᴇ\n🔹   %.10f\n🔹ɢᴇᴛ ᴄᴏɴᴛᴀᴄᴛ\n🔹   %.10f\n🔹ɢᴇᴛ ɢʀᴏᴜᴘ\n🔹   %.10f" % (get_profile_time/3,get_contact_time/3,get_group_time/3))
 
-                        elif cmd == ".speed" or cmd == "sp bot":
+                        elif cmd == ".speed" or cmd == "spb":
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                start = time.time()
                                elapsed_time = time.time() - start
-                               cl.sendMessage(msg.to, "{} ᴅᴇᴛɪᴋ".format(str(elapsed_time/10)))
                                ki.sendMessage(msg.to, "{} ᴅᴇᴛɪᴋ".format(str(elapsed_time/10)))
                                kk.sendMessage(msg.to, "{} ᴅᴇᴛɪᴋ".format(str(elapsed_time/10)))
                                kc.sendMessage(msg.to, "{} ᴅᴇᴛɪᴋ".format(str(elapsed_time/10)))
@@ -5012,7 +4641,7 @@ def bot(op):
                                 get_profile = cl.getProfile()
                                 get_profile_time = time.time() - get_profile_time_start
                                 sendTextTemplate(msg.to, "ᴡᴀɪᴛ...")
-                                sendTextTemplate(msg.to, "╭───────────────────╮\n%.10f Cannibal\n╰───────────────────╯" % (get_profile_time/3))
+                                sendTextTemplate(msg.to, "╭───────────────────╮\n%.10f mai\n╰───────────────────╯" % (get_profile_time/3))
 
                         elif cmd == "lurking on":
                           if wait["selfbot"] == True:
@@ -5494,9 +5123,9 @@ def bot(op):
                                   cl.sendMessage(msg.to, None, contentMetadata={'mid': conn.mid}, contentType=13)
 
 #===========Protection============#
-                        elif 'Welcome ' in msg.text:
+                        elif 'ต้อนรับ ' in msg.text:
                            if msg._from in admin:
-                              spl = msg.text.replace('Welcome ','')
+                              spl = msg.text.replace('ต้อนรับ ','')
                               if spl == 'on':
                                   if msg.to in welcome:
                                        msgs = "sᴀᴍʙᴜᴛᴀɴ ᴀᴋᴛɪғ"
@@ -5534,9 +5163,9 @@ def bot(op):
                                          msgs = ""
                                     sendTextTemplate(msg.to, "🔹sᴜᴅᴀʜ ᴅɪ ɴᴏɴᴀᴋᴛɪғᴋᴀɴ\n" + msgs)
                                     
-                        elif 'Gs ' in msg.text:
+                        elif 'g ' in msg.text:
                            if msg._from in admin:
-                              spl = msg.text.replace('Ghost ','')
+                              spl = msg.text.replace('G ','')
                               if spl == 'on':
                                   if msg.to in ghost:
                                        msgs = "🔹sɪᴀᴘ ʙᴀɴᴛᴀɪ ᴋɪᴋɪʟ ᴛᴇᴍᴘᴇ"
@@ -5554,9 +5183,9 @@ def bot(op):
                                          msgs = ""
                                     sendTextTemplate(msg.to, "🔹ɢʜᴏsᴛ ᴅɪ ɴᴏɴᴀᴋᴛɪғᴋᴀɴ\n" + msgs)
 
-                        elif 'Allprotect ' in msg.text:
+                        elif 'Allpro ' in msg.text:
                            if msg._from in admin:
-                              spl = msg.text.replace('Allprotect ','')
+                              spl = msg.text.replace('Allpro ','')
                               if spl == 'on':
                                   if msg.to in protectqr:
                                        msgs = ""
@@ -5601,7 +5230,7 @@ def bot(op):
                                     sendTextTemplate(msg.to, "sᴇᴍᴜᴀ ᴘʀᴏ ᴅɪ ᴍᴀᴛɪᴋᴀɴ\n" + msgs)
 
 #=========== KICKOUT ============#
-                        elif ("babat " in msg.text):
+                        elif ("vk " in msg.text):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                key = eval(msg.contentMetadata["MENTION"])
@@ -5652,111 +5281,9 @@ def bot(op):
                                       except:
                                           ki.sendMessage(msg.to,"♦️ᴘᴇʀᴍɪsɪ sᴇᴍᴜᴀ ɴʏᴀ♦️") 
                                        
-                        elif cmd == "kibar":
-                          if wait["selfbot"] == True:
-                            if msg._from in admin:
-                               cl.sendMessage(msg.to, "ʜʜʜᴀᴀᴀᴀɪɪɪɪ!!! \nᴀᴘᴀ ᴋᴀʙᴀʀ sᴇᴍᴜᴀ\nᴍᴀᴀᴀғғғ ʀᴏᴏᴍ ᴋᴀʟɪᴀɴ ᴅᴀʟᴀᴍ ᴘᴇɴɢɢᴜsᴜʀᴀɴ \n\nᴋᴇʙᴀɴʏᴀᴋᴀɴ ʙᴀᴄᴏᴛ ᴅᴀɴ ᴀɴᴜ\nᴀʙɪ ᴏʟᴇɴɢ ᴅᴀɴ ᴛᴇᴀᴍ ʜᴀᴅɪʀ\nᴍᴀᴜ ʙᴀʙᴀᴛ ɢᴄ ɢᴀᴋ ᴊᴇʟᴀs\nɴᴏ ʙᴀᴄᴏᴛ \nɴᴏ ᴅᴇsᴀʜ \nɴᴏ ᴄᴏᴍᴍᴇɴᴛ \nɴᴏ ᴋᴏᴀʀ ᴋᴏᴀʀ \nɴᴏ ɴᴀɴɢɪs \nᴋᴀsɪᴀɴ ᴅᴇʟʟʟᴏᴏᴏ\nʀᴏᴏᴍ ᴏᴋᴇᴘ \nʀᴏᴏᴍ ᴊᴜᴅɪ\nʀᴏᴏᴍ ɢᴀᴋ ᴊᴇʟᴀs\nsɪᴀᴘ ᴋɪᴛᴀ ʙᴀʙᴀᴛ ᴅᴀɴ ʙᴀɴᴛᴀɪɪɪ \n\n\n\n ʙᴀᴘᴀᴋ ᴋᴀᴜᴜᴜ...\nᴋᴇɴᴀᴘᴀ ᴋᴀᴜ ᴅɪᴀᴍ ɴᴊɪɪɪɴɴɢɢɢɢ\nᴛᴀɴɢᴋɪss ɴʏᴇᴇᴛ ᴛᴀɴɢᴋɪss ᴊᴀɴɢᴀɴ ɴʏᴀᴍᴜᴋ ᴀᴊᴀ\n\n\nᴅᴀsᴀʀ ʀᴏᴏᴍ ᴘᴇᴀ ɢᴜᴏʙʟᴏᴋ sᴇᴛᴀɴ\nᴍᴀᴀғ ᴄᴇᴇᴇɴɢɢᴇɴɢ\nɢᴄ ᴋᴀᴜ ᴀᴋᴜ sɪᴛᴀ...!!!\n\n\n sᴀʟᴀᴍ ᴅᴀʀɪ ᴋᴀᴍɪ ᴀʙɪ Cannibal\n\nᴍᴀᴍᴘɪʀ ᴅɪ ɢᴄ ᴋᴀʟɪᴀɴ\n\nʀᴀᴛᴀ ɢᴀᴋ ʀᴀᴛᴀ ʏᴀɴɢ ᴘᴇɴᴛɪɴɢ ᴋɪʙᴀʀ ᴅᴀɴ ᴅᴇsᴀʜɪɴ ɢᴄ ᴋᴀᴜ \nʀᴀᴛᴀ ᴀᴋᴜ sᴇɴᴀɴɢ\nᴋʟᴏ ɢᴀᴋ ʀᴀᴛᴀ ᴛᴜɴɢɢᴜ ᴋᴇʜᴀᴅɪʀᴀɴ ᴀᴋᴜ ʟᴀɢɪ\n\n\n  >>⛔sᴀʟᴀᴍ Cipok Cannibal⛔<< \n\n\n>>⛔Cannibal ᴋɪʟʟᴇʀ ʟᴇsᴛ ɢᴏ⛔<<\n\n\n                    ᴄʀᴇᴀᴛᴏʀ\n\n<<<<<<<<<<Cannibal>>>>>>>>>>\n\nhttp://line.me/ti/p/~4rman3")
-                               cl.sendContact(to, mid)
-                               cl.sendContact(to, Amid)
-                               cl.sendContact(to, Bmid)
-                               cl.sendContact(to, Cmid)
-                               cl.sendContact(to, Dmid)
-                               cl.sendContact(to, Emid)
-                               cl.sendContact(to, Zmid)        
-                               cl.sendContact(to, Amid)
-                               cl.sendContact(to, Bmid)
-                               cl.sendContact(to, Cmid)
-                               cl.sendContact(to, Dmid)
-                               cl.sendContact(to, Emid)
-                               cl.sendContact(to, Zmid)        
-                               cl.sendContact(to, Amid)
-                               cl.sendContact(to, Bmid)
-                               cl.sendContact(to, Cmid)
-                               cl.sendContact(to, Dmid)
-                               cl.sendContact(to, Emid)
-                               cl.sendContact(to, Zmid)        
-                               cl.sendContact(to, Amid)
-                               cl.sendContact(to, Bmid)
-                               cl.sendContact(to, Cmid)
-                               cl.sendContact(to, Dmid)
-                               cl.sendContact(to, Emid)
-                               cl.sendContact(to, Zmid)  
-                               cl.sendContact(to, Amid)
-                               cl.sendContact(to, Bmid)
-                               cl.sendContact(to, Cmid)
-                               cl.sendContact(to, Dmid)
-                               cl.sendContact(to, Emid)
-                               cl.sendContact(to, Zmid)
-                               cl.sendContact(to, Amid)
-                               cl.sendContact(to, Bmid)
-                               cl.sendContact(to, Cmid)
-                               cl.sendContact(to, Dmid)
-                               cl.sendContact(to, Emid)
-                               cl.sendContact(to, Zmid)
-                               cl.sendContact(to, Amid)
-                               cl.sendContact(to, Bmid)
-                               cl.sendContact(to, Cmid)
-                               cl.sendContact(to, Dmid)
-                               cl.sendContact(to, Emid)
-                               cl.sendContact(to, Zmid)
-                               cl.sendContact(to, Amid)
-                               cl.sendContact(to, Bmid)
-                               cl.sendContact(to, Cmid)
-                               cl.sendContact(to, Dmid)
-                               cl.sendContact(to, Emid)
-                               cl.sendContact(to, Zmid)
-                               cl.sendContact(to, Amid)
-                               cl.sendContact(to, Bmid)
-                               cl.sendContact(to, Cmid)
-                               cl.sendContact(to, Dmid)
-                               cl.sendContact(to, Emid)
-                               cl.sendContact(to, Zmid)        
-                               cl.sendContact(to, Amid)
-                               cl.sendContact(to, Bmid)
-                               cl.sendContact(to, Cmid)
-                               cl.sendContact(to, Dmid)
-                               cl.sendContact(to, Emid)
-                               cl.sendContact(to, Zmid)        
-                               cl.sendContact(to, Amid)
-                               cl.sendContact(to, Bmid)
-                               cl.sendContact(to, Cmid)
-                               cl.sendContact(to, Dmid)
-                               cl.sendContact(to, Emid)
-                               cl.sendContact(to, Zmid)        
-                               cl.sendContact(to, Amid)
-                               cl.sendContact(to, Bmid)
-                               cl.sendContact(to, Cmid)
-                               cl.sendContact(to, Dmid)
-                               cl.sendContact(to, Emid)
-                               cl.sendContact(to, Zmid)  
-                               cl.sendContact(to, Amid)
-                               cl.sendContact(to, Bmid)
-                               cl.sendContact(to, Cmid)
-                               cl.sendContact(to, Dmid)
-                               cl.sendContact(to, Emid)
-                               cl.sendContact(to, Zmid)
-                               cl.sendContact(to, Amid)
-                               cl.sendContact(to, Bmid)
-                               cl.sendContact(to, Cmid)
-                               cl.sendContact(to, Dmid)
-                               cl.sendContact(to, Emid)
-                               cl.sendContact(to, Zmid)
-                               cl.sendContact(to, Amid)
-                               cl.sendContact(to, Bmid)
-                               cl.sendContact(to, Cmid)
-                               cl.sendContact(to, Dmid)
-                               cl.sendContact(to, Emid)
-                               cl.sendContact(to, Zmid)
-                               cl.sendContact(to, Amid)
-                               cl.sendContact(to, Bmid)
-                               cl.sendContact(to, Cmid)
-                               cl.sendContact(to, Dmid)
-                               cl.sendContact(to, Emid)
-                               cl.sendContact(to, Zmid)
-                               cl.sendMessage(to, None, contentMetadata={"STKID":"56021040","STKPKGID":"3865357","STKVER":"1"}, contentType=7)
-                               cl.sendMessage(to, None, contentMetadata={"STKID":"56021040","STKPKGID":"3865357","STKVER":"1"}, contentType=7)
 
-                        elif ("Kick " in msg.text):
+
+                        elif ("K " in msg.text):
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                key = eval(msg.contentMetadata["MENTION"])
@@ -5988,13 +5515,13 @@ def bot(op):
                                 wait["arespon"] = False
                                 sendTextTemplate(msg.to,"🔹ʀᴇsᴘᴏɴᴘᴍ ᴅɪ ᴍᴀᴛɪᴋᴀɴ🔹")          
 
-                        elif cmd == "autojoin on" or text.lower() == 'autojoin on':
+                        elif cmd == "autojoin on" or text.lower() == 'join on':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoJoin"] = True
                                 sendTextTemplate(msg.to,"🔹ᴀᴜᴛᴏ ᴊᴏɪɴ ᴅɪ ᴀᴋᴛɪғᴋᴀɴ🔹")
 
-                        elif cmd == "autojoin off" or text.lower() == 'autojoin off':
+                        elif cmd == "autojoin off" or text.lower() == 'join off':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoJoin"] = False
@@ -6024,49 +5551,49 @@ def bot(op):
                                 wait["autoLeave"] = False
                                 sendTextTemplate(msg.to,"🔹ᴀᴜᴛᴏʟᴇᴀᴠᴇ ᴅɪ ɴᴏɴᴀᴋᴛɪғᴋᴀɴ🔹")
 
-                        elif cmd == "autoadd on" or text.lower() == 'autoadd on':
+                        elif cmd == "autoadd on" or text.lower() == 'add on':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoAdd"] = True
                                 sendTextTemplate(msg.to,"🔹ᴀᴜᴛᴏᴀᴅᴅ ᴅɪ ᴀᴋᴛɪғᴋᴀɴ🔹")
 
-                        elif cmd == "autoadd off" or text.lower() == 'autoadd off':
+                        elif cmd == "autoadd off" or text.lower() == 'add off':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoAdd"] = False
                                 sendTextTemplate(msg.to,"🔹ᴀᴜᴛᴏᴀᴅᴅ ᴅɪ ɴᴏɴᴀᴋᴛɪғᴋᴀɴ🔹")
                                 
-                        elif cmd == "left on" or text.lower() == 'left on':
+                        elif cmd == "left on" or text.lower() == 'ไลค์ on':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["left"] = True
                                 sendTextTemplate(msg.to,"🔹ʟᴇғᴛ ᴅɪ ᴀᴋᴛɪғᴋᴀɴ🔹")
 
-                        elif cmd == "left off" or text.lower() == 'left off':
+                        elif cmd == "left off" or text.lower() == 'ไลค์ off':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["left"] = False
                                 sendTextTemplate(msg.to,"🔹ʟᴇғᴛ ᴅɪ ɴᴏɴᴀᴋᴛɪғᴋᴀɴ🔹")
                                 
-                        elif cmd == "autoblock on" or text.lower() == 'autoblock on':
+                        elif cmd == "autoblock on" or text.lower() == 'block on':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoBlock"] = True
                                 sendTextTemplate(msg.to,"🔹ᴀᴜᴛᴏʙʟᴏᴄᴋ ᴅɪ ᴀᴋᴛɪғᴋᴀɴ🔹")
                                 
-                        elif cmd == "autoblock off" or text.lower() == 'autoblock off':
+                        elif cmd == "autoblock off" or text.lower() == 'block off':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoBlock"] = True
                                 sendTextTemplate(msg.to,"🔹ᴀᴜᴛᴏʙʟᴏᴄᴋ ᴅɪ ɴᴏɴᴀᴋᴛɪғᴋᴀɴ🔹")          
 
-                        elif cmd == "jointicket on" or text.lower() == 'jointicket on':
+                        elif cmd == "jointicket on" or text.lower() == 'มุดลิ้ง on':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoJoinTicket"] = True
                                 sendTextTemplate(msg.to,"🔹ᴊᴏɪɴᴛɪᴄᴋᴇᴛ ᴅɪ ᴀᴋᴛɪғᴋᴀɴ🔹")
 
-                        elif cmd == "jointicket off" or text.lower() == 'jointicket off':
+                        elif cmd == "jointicket off" or text.lower() == 'มุดลิ้ง off':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                                 wait["autoJoinTicket"] = False
@@ -6157,7 +5684,7 @@ def bot(op):
                                 wait["dblacklist"] = True
                                 sendTextTemplate(msg.to,"🔹ᴋɪʀɪᴍ ᴄᴏɴᴛᴀᴄᴛɴʏᴀ🔹")
 
-                        elif cmd == "banlist" or text.lower() == 'banlist':
+                        elif cmd == "banlist" or text.lower() == 'ดำ':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                               if wait["blacklist"] == {}:
@@ -6185,7 +5712,7 @@ def bot(op):
                                     ma += str(a) + ". " +cl.getContact(m_id).displayName + "\n"
                                 sendTextTemplate(msg.to,"🔹ᴛᴀʟᴋʙᴀɴ ᴜsᴇʀ🔹\n\n"+ma+"\n🔹ᴊᴜᴍʟᴀʜ「%s」ᴛᴀʟᴋʙᴀɴ ᴜsᴇʀ🔹" %(str(len(wait["Talkblacklist"]))))
 
-                        elif cmd == "tersangka" or text.lower() == 'blc':
+                        elif cmd == "tersangka" or text.lower() == 'bc':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                               if wait["blacklist"] == {}:
@@ -6196,7 +5723,7 @@ def bot(op):
                                         ma = cl.getContact(i)
                                         cl.sendMessage(msg.to, None, contentMetadata={'mid': i}, contentType=13)
 
-                        elif cmd == "clearban" or text.lower() == 'clearban':
+                        elif cmd == "clearban" or text.lower() == 'cb':
                           if wait["selfbot"] == True:
                             if msg._from in admin:
                               wait["blacklist"] = {}
@@ -6285,15 +5812,6 @@ def bot(op):
 
                         elif cmd == "cek":
                             if msg._from in admin or msg._from in owner:
-                               try:cl.inviteIntoGroup(to, [mid]);has = "OK"
-                               except:has = "NOT"
-                               try:cl.kickoutFromGroup(to, [mid]);has1 = "OK"
-                               except:has1 = "NOT"
-                               if has == "OK":sil = "⭕"
-                               else:sil = "⛔"
-                               if has1 == "OK":sil1 = "⭕"
-                               else:sil1 = "⛔"
-                               cl.sendMessage(to, "sᴛᴀᴛᴜs:\n\nᴋɪᴄᴋ : {} \nɪɴᴠɪᴛᴇ : {}".format(sil1,sil))
                                try:ki.inviteIntoGroup(to, [Amid]);has = "OK"
                                except:has = "NOT"
                                try:ki.kickoutFromGroup(to, [Amid]);has1 = "OK"
@@ -6339,9 +5857,9 @@ def bot(op):
                                if has1 == "OK":sil1 = "⭕"
                                else:sil1 = "⛔"
                                jk.sendMessage(to, "sᴛᴀᴛᴜs:\n\nᴋɪᴄᴋ : {} \nɪɴᴠɪᴛᴇ : {}".format(sil1,sil))
-                               try:sw.inviteIntoGroup(to, [Fmid]);has = "OK"
+                               try:sw.inviteIntoGroup(to, [Zmid]);has = "OK"
                                except:has = "NOT"
-                               try:sw.kickoutFromGroup(to, [Fmid]);has1 = "OK"
+                               try:sw.kickoutFromGroup(to, [Zmid]);has1 = "OK"
                                except:has1 = "NOT"
                                if has == "OK":sil = "⭕"
                                else:sil = "⛔"
@@ -6363,16 +5881,8 @@ def bot(op):
                                  for ticket_id in n_links:
                                      group = cl.findGroupByTicket(ticket_id)
                                      cl.acceptGroupInvitationByTicket(group.id,ticket_id)
-                                     cl.sendMessage(msg.to, "Masuk : %s" % str(group.name))
-                                     group1 = ki.findGroupByTicket(ticket_id)
-                                     ki.acceptGroupInvitationByTicket(group1.id,ticket_id)
-                                     ki.sendMessage(msg.to, "Masuk : %s" % str(group.name))
-                                     group2 = kk.findGroupByTicket(ticket_id)
-                                     kk.acceptGroupInvitationByTicket(group2.id,ticket_id)
-                                     kk.sendMessage(msg.to, "Masuk : %s" % str(group.name))
-                                     group3 = kc.findGroupByTicket(ticket_id)
-                                     kc.acceptGroupInvitationByTicket(group3.id,ticket_id)
-                                     kc.sendMessage(msg.to, "Masuk : %s" % str(group.name))
+                                     cl.sendMessage(msg.to, "ดีคับ : %s" % str(group.name))
+
 
     except Exception as error:
         print (error)
